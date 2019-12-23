@@ -1,0 +1,7 @@
+{
+	"folders": [
+		{"path": "."}, // Uncomment this if necessary
+		//{"path": "hidden", "name": "hidden}, // Uncomment this if necessary
+		{"path": "src", "name": "source"}
+	]
+}
