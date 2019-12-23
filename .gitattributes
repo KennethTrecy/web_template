@@ -1,0 +1,5 @@
+.git* text eol=lf
+*.json text eol=lf
+*.code-snippets text eol=lf
+*.code-workspace text eol=lf
+*.md text eol=lf
