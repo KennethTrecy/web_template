@@ -9,6 +9,6 @@ Modify this repository's files' content or names as much as you want.
 It is optional to attribute this repository in other template/projects.
 
 ### How this name came up
-Orig = ORIGin. Where the other projects would start.
-Gen = GENeral. It is for general purpose.
-Enne = kENNEth. Name of the author.
+- Orig = ORIGin. Where the other projects would start.
+- Gen = GENeral. It is for general purpose.
+- Enne = kENNEth. Name of the author.
