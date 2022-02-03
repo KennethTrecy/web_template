@@ -35,13 +35,13 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: http://repo.local/KennethTrecy/web_template
-[Web Template]: http://repo.local/KennethTrecy/web_template
+[`master`]: http://github.com/KennethTrecy/web_template
+[Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
 
 [notes]: #notes
-[`vue` branch]: http://repo.local/KennethTrecy/web_template/src/branch/vue
+[`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
