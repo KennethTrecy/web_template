@@ -8,8 +8,7 @@ example, [`rollup` branch] contains [`rollup` package]. If there multiple packag
 features, they are concatenated using `-` character. By default, they contain [`jest` package] as
 the default testing framework and `rollup` as default module bundler.
 
-The only exceptions are the `empty_package_json` (contains no package) and `js_unit_test` (contains [`jest`
-package] and it is a parent branch of most other branches).
+There are some exceptions that do not follow general guidelines above. See the [notes] section for more information.
 
 <!--
 The `origin` section may be used to indicate where the project (that is using this template) came from.
@@ -37,6 +36,7 @@ Coded by Kenneth Trecy Tobias.
 
 -->
 
+[notes]: #notes
 [`rollup` branch]: http://repo.local/KennethTrecy/web_template/src/branch/rollup
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
