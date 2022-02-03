@@ -4,7 +4,8 @@
 	"version": "0.1.0-dev",
 	"private": true,
 	"scripts": {
-
+		"test:unit": "npx jest",
+		"test:watch_unit": "npx jest --watch"
 	},
 	"dependencies": {
 
