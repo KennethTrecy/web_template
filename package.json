@@ -5,6 +5,9 @@
 	"main": "src/index.js",
 	"private": true,
 	"scripts": {
+		"dev": "npm run development",
+		"development": "npx rollup -c",
+		"watch": "npx rollup -c --watch",
 		"test:unit": "npx jest",
 		"test:watch_unit": "npx jest --watch"
 	},
