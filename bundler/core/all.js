@@ -1,4 +1,6 @@
-export default function(plugins = []) {
+import { DEVELOPMENT } from "./environments";
+
+export default function(environment = DEVELOPMENT, plugins = []) {
 	return [
 		{
 			"input": "src/index.js",
