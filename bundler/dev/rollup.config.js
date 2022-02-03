@@ -1,10 +1,3 @@
-export default [
-	{
-		"input": "src/index.js",
-		"output": {
-			"file": "dist/index.js",
-			"format": "iife",
-			"interop": "auto"
-		}
-	}
-];
+import all from "../core/all";
+
+export default all();
