@@ -3,7 +3,7 @@ This is a web template repository of Kenneth Trecy Tobias. Its purpose is to be 
 templates/projects either by forking this repository or copying its files.
 
 ## Origin
-The project was been based from [`master`] branch of [Origenne Template].
+The repository was based from [`master`] branch of [Origenne Template].
 
 The template is specialize for front-end development.
 
