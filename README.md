@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`rollup`] branch of [Web Template].
+The repository was based from [`base`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -30,14 +30,15 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-It does not include any package.
+[`rollup` package], [`jest` package], and other necessary packages were already installed in this
+branch.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`rollup`]: http://repo.local/KennethTrecy/web_template/src/branch/rollup
+[`base`]: http://repo.local/KennethTrecy/web_template/src/branch/base
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
