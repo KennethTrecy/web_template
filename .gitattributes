@@ -1,4 +1,5 @@
 *.md					text eol=lf
 .git*					text eol=lf
 *.json				text eol=lf
+.editorconfig		text eol=lf
 *.code-snippets	text eol=lf
