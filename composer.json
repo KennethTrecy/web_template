@@ -28,7 +28,15 @@
 		}
 	},
 	"scripts": {
-
+		"test:offline:fast": [
+			"./vendor/bin/phpunit --testsuite Unit,Feature"
+		],
+		"test:offline:slow": [
+			"./vendor/bin/phpunit --testsuite Integration"
+		],
+		"test:offline:all": [
+			"./vendor/bin/phpunit"
+		]
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
