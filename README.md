@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`rollup-sass-vue`] branch of [Web Template].
+The repository was based from [`sass-vue`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -38,7 +38,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`rollup-sass-vue`]: http://repo.local/KennethTrecy/web_template/src/branch/rollup-sass-vue
+[`sass-vue`]: http://repo.local/KennethTrecy/web_template/src/branch/sass-vue
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
