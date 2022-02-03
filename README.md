@@ -44,7 +44,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`comroconbu-sass-vue`]: http://repo.local/KennethTrecy/web_template/src/branch/comroconbu-sass-vue
+[`comroconbu-sass-vue`]: https://github.com/KennethTrecy/web_template/tree/comroconbu-sass-vue
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
