@@ -1,6 +1,7 @@
 {
 	"moduleFileExtensions": [
-		"js"
+		"js",
+		"vue"
 	],
 
 	"moduleNameMapper": {
@@ -8,7 +9,8 @@
 	},
 
 	"transform": {
-		"^.+\\.js$": "babel-jest"
+		"^.+\\.js$": "babel-jest",
+		"^.+\\.vue$": "@vue/vue3-jest"
 	},
 
 	"transformIgnorePatterns": [],
