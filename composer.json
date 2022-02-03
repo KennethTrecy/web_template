@@ -3,13 +3,13 @@
 	"type": "library",
 	"description": "A simple web template for general reuse.",
 	"keywords": [],
-	"homepage": "http://repo.local/KennethTrecy/web_template",
+	"homepage": "https://github.com/KennethTrecy/web_template",
 	"license": "proprietary",
 	"authors": [
 		{
 			"name": "Kenneth Trecy Tobias",
 			"email": "web.kennethtobias@gmail.com",
-			"homepage": "http://repo.local/KennethTrecy",
+			"homepage": "https://github.com/KennethTrecy",
 			"role": "Developer"
 		}
 	],
