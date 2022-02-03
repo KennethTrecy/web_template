@@ -15,7 +15,7 @@ package] and it is a parent branch of most other branches).
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`master`] branch of [Web Template].
+The repository was based from [`empty_composer_json`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -32,7 +32,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: http://repo.local/KennethTrecy/web_template
+[`empty_composer_json`]: http://repo.local/KennethTrecy/web_template/src/branch/empty_composer_json
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
