@@ -8,7 +8,7 @@ example, [`rollup` branch] contains [`rollup` package]. If there multiple packag
 features, they are concatenated using `-` character. By default, they contain [`jest` package] as
 the default testing framework.
 
-The only exceptions are the `empty_json` (contains no package) and `unit_test` (contains [`jest`
+The only exceptions are the `empty_package_json` (contains no package) and `unit_test` (contains [`jest`
 package] and it is a parent branch of most other branches).
 
 <!--
