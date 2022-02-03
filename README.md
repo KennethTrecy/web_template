@@ -4,7 +4,7 @@ templates/projects either by forking this repository, copying its files, or merg
 other existing templates/projects.
 
 ## Origin
-The repository was based from [`rollup-comroconbu-vue`] branch of [Web Template].
+The repository was based from [`rollup-comroconbu-sass-vue`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -14,5 +14,5 @@ Modify this repository's files' content or names as much as you want.
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
-[`rollup-comroconbu-vue`]: http://repo.local/KennethTrecy/web_template/src/branch/rollup-comroconbu-vue
+[`rollup-comroconbu-sass-vue`]: http://repo.local/KennethTrecy/web_template/src/branch/rollup-comroconbu-sass-vue
 [Web Template]: http://repo.local/KennethTrecy/web_template
