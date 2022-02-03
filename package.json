@@ -9,7 +9,7 @@
 		"test:watch_unit": "npx jest --watch"
 	},
 	"dependencies": {
-
+		"vue": "^3.2.29"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.0",
