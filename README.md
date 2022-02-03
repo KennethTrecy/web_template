@@ -15,7 +15,7 @@ package] and it is a parent branch of most other branches).
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`rollup-comroconbu`] branch of [Web Template].
+The repository was based from [`comroconbu`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -32,7 +32,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`rollup-comroconbu`]: http://repo.local/KennethTrecy/web_template/src/branch/rollup-comroconbu
+[`comroconbu`]: http://repo.local/KennethTrecy/web_template/src/branch/comroconbu
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
