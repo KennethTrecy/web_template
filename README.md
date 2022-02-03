@@ -4,7 +4,7 @@ templates/projects either by forking this repository, copying its files, or merg
 other existing templates/projects.
 
 ## Origin
-The project was been based from [`master`] branch of [Origenne Template].
+The repository was based from [`master`] branch of [Origenne Template].
 
 ## Usage
 Modify this repository's files' content or names as much as you want.
