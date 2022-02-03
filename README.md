@@ -33,14 +33,14 @@ This branch can be used to other branches, templates, or projects.
 [`rollup` package], [`jest` package], and other necessary packages were already installed in this
 branch.
 
-Its name is `filled_base` because it already has necessary packages that most other branches need.
+Its name is `filled_package_json` because it already has necessary packages that most other branches need.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`filled_base`]: http://repo.local/KennethTrecy/web_template/src/branch/filled_base
+[`filled_package_json`]: http://repo.local/KennethTrecy/web_template/src/branch/filled_package_json
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
