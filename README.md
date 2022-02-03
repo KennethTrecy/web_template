@@ -1,6 +1,7 @@
 # Origenne Template
 This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other
-templates/projects either by forking this repository or copying its files.
+templates/projects either by forking this repository, copying its files, or merging its history to
+other existing templates/projects.
 
 ## Origin
 The project was been based from [`master`] branch of [Origenne Template].
