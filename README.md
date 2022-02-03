@@ -4,11 +4,12 @@ templates/projects either by forking this repository, copying its files, or merg
 other existing templates/projects.
 
 This template has multiple branches that are named after the main package(s) they contain. For
-example, [`rollup` branch] contains [`rollup` package]. If there multiple packages in a branch
-features, they are concatenated using `-` character. By default, they contain [`jest` package] as
-the default testing framework and `rollup` as default module bundler.
+example, [`vue` branch] contains [`vue` package]. If there multiple packages in a branch features,
+they are concatenated using `-` character. By default, they contain [`jest` package] as the default
+JavaScript testing framework and [`rollup` package] as default JavaScript module bundler.
 
-There are some exceptions that do not follow general guidelines above. See the [notes] section for more information.
+There are some exceptions that do not follow general guidelines above. See the [notes] section for
+more information.
 
 <!--
 The `origin` section may be used to indicate where the project (that is using this template) came from.
@@ -37,6 +38,7 @@ Coded by Kenneth Trecy Tobias.
 -->
 
 [notes]: #notes
-[`rollup` branch]: http://repo.local/KennethTrecy/web_template/src/branch/rollup
+[`vue` branch]: http://repo.local/KennethTrecy/web_template/src/branch/vue
+[`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
