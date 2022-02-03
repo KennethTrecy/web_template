@@ -44,7 +44,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`empty_package_json`]: http://repo.local/KennethTrecy/web_template/src/branch/empty_package_json
+[`empty_package_json`]: https://github.com/KennethTrecy/web_template/tree/empty_package_json
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
