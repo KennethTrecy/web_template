@@ -2,8 +2,8 @@
 	<span>{{ message }}</span>
 </template>
 
-<style>
-
+<style lang="scss">
+@import "index";
 </style>
 
 <script>

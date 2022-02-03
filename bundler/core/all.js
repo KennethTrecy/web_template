@@ -5,6 +5,7 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
 import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";
+import scss from "rollup-plugin-scss";
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -29,6 +30,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 					}
 				}),
 				vue({
+
+				}),
+				scss({
 
 				}),
 				...generalPostPlugins

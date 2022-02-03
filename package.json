@@ -28,6 +28,8 @@
 		"jest": "^27.4.7",
 		"regenerator-runtime": "^0.13.9",
 		"rollup": "^2.67.0",
-		"rollup-plugin-terser": "^7.0.2"
+		"rollup-plugin-scss": "^3.0.0",
+		"rollup-plugin-terser": "^7.0.2",
+		"sass": "^1.49.7"
 	}
 }
