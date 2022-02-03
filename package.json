@@ -5,17 +5,21 @@
 	"main": "src/index.js",
 	"private": true,
 	"scripts": {
+		"dev": "npm run development",
+		"development": "npx rollup -c bundler/dev/rollup.config.js",
+		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
+		"prod": "npm run production",
+		"production": "npx rollup -c bundler/prod/rollup.config.js",
 		"test:unit": "npx jest",
 		"test:watch_unit": "npx jest --watch"
-	},
-	"dependencies": {
-
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.0",
 		"@babel/preset-env": "^7.16.11",
 		"jest": "^27.4.7",
 		"regenerator-runtime": "^0.13.9",
+		"rollup": "^2.67.0",
+		"rollup-plugin-terser": "^7.0.2",
 		"sass": "^1.49.7"
 	}
 }
