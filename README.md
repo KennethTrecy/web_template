@@ -27,6 +27,9 @@ Modify this repository's files' content or names as much as you want.
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
+### Branch
+This branch is not recommended to be a template for projects. However, it can be included to other branches or templates.
+
 ### Author
 Coded by Kenneth Trecy Tobias.
 
