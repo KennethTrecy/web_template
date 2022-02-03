@@ -26,3 +26,6 @@ It is optional to attribute this repository in other template/projects.
 [`master`]: http://repo.local/KennethTrecy/origenne_template
 [Origenne Template]: http://repo.local/KennethTrecy/origenne_template
 -->
+
+### Author
+Coded by Kenneth Trecy Tobias.
