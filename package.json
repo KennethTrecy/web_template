@@ -8,6 +8,8 @@
 		"dev": "npm run development",
 		"development": "npx rollup -c bundler/dev/rollup.config.js",
 		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
+		"prod": "npm run production",
+		"production": "npx rollup -c bundler/prod/rollup.config.js",
 		"test:unit": "npx jest",
 		"test:watch_unit": "npx jest --watch"
 	},
