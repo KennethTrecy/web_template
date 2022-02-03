@@ -1,5 +1,12 @@
-import subtract from "@/index";
+import App from "@/app.vue";
+import { shallowMount } from "@vue/test-utils";
 
-it("can subtract", () => {
-	expect(subtract(1, 1)).toEqual(0);
+it("can test", () => {
+	const app = shallowMount(App, {
+		"props": {}
+	});
+
+	const span = app.find("span");
+
+	expect(span.html()).toContain("Hello World!");
 });
