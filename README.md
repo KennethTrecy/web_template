@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`base`] branch of [Web Template].
+The repository was based from [`filled_base`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -38,7 +38,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`base`]: http://repo.local/KennethTrecy/web_template/src/branch/base
+[`filled_base`]: http://repo.local/KennethTrecy/web_template/src/branch/filled_base
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
