@@ -1,0 +1,36 @@
+{
+	"name": "kennethtrecy/web_template",
+	"type": "library",
+	"description": "A simple web template for general reuse.",
+	"keywords": [],
+	"homepage": "http://repo.local/KennethTrecy/web_template",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Kenneth Trecy Tobias",
+			"email": "web.kennethtobias@gmail.com",
+			"homepage": "http://repo.local/KennethTrecy",
+			"role": "Developer"
+		}
+	],
+	"require": {
+
+	},
+	"require-dev": {
+
+	},
+	"autoload": {
+
+	},
+	"autoload-dev": {
+
+	},
+	"scripts": {
+
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"secure-http": true
+	}
+}
