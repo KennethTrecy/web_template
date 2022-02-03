@@ -2,6 +2,8 @@
 	"name": "web_template",
 	"description": "A simple web template for general reuse.",
 	"version": "0.1.0-dev",
+	"homepage": "https://github.com/KennethTrecy/web_template",
+	"license": "MIT",
 	"main": "src/index.js",
 	"private": true,
 	"scripts": {
@@ -25,7 +27,7 @@
 		"@vitejs/plugin-vue": "^2.1.0",
 		"@vue/test-utils": "^2.0.0-rc.18",
 		"@vue/vue3-jest": "^27.0.0-alpha.4",
-		"comroconbu": "git+http://repo.local/KennethTrecy/comroconbu#v0.1.1",
+		"comroconbu": "git+https://github.com/KennethTrecy/comroconbu#v0.2.0",
 		"jest": "^27.4.7",
 		"regenerator-runtime": "^0.13.9",
 		"rollup": "^2.67.0",
