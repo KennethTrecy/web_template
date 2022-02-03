@@ -1,4 +1,7 @@
 .vscode
 !/.vscode
 
+composer.lock
+/.vendor
+
 *hidden*
