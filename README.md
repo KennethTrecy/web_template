@@ -15,7 +15,7 @@ package] and it is a parent branch of most other branches).
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`rollup-sass`] branch of [Web Template].
+The repository was based from [`sass`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -32,7 +32,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`rollup-sass`]: http://repo.local/KennethTrecy/web_template/src/branch/rollup-sass
+[`sass`]: http://repo.local/KennethTrecy/web_template/src/branch/sass
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
