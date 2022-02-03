@@ -1,6 +1,6 @@
 import { DEVELOPMENT } from "./environments";
 
-export default function(environment = DEVELOPMENT, plugins = []) {
+export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
 		{
 			"input": "src/index.js",
@@ -10,7 +10,7 @@ export default function(environment = DEVELOPMENT, plugins = []) {
 				"interop": "auto"
 			},
 			"plugins": [
-				...plugins
+				...generalPostPlugins
 			]
 		}
 	];
