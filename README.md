@@ -57,4 +57,4 @@ Coded by Kenneth Trecy Tobias.
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
-[MIT-0]: https://github.com/KennethTrecy/origenne_template/blob/master/LICENSE
+[MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
