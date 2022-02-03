@@ -40,6 +40,9 @@ This branch can be used to other branches, templates, or projects.
 [`rollup` package], [`jest` package], and other necessary packages were already installed in this
 branch.
 
+This branch was intended to merge with other branches that may happen to group a major
+component/system into a folder.
+
 ### Author
 Coded by Kenneth Trecy Tobias.
 
