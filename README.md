@@ -3,7 +3,7 @@ This is a web template repository of Kenneth Trecy Tobias. Its purpose is to be 
 templates/projects either by forking this repository or copying its files.
 
 ## Origin
-The repository was based from [`unit_test`] branch of [Web Template].
+The repository was based from [`sass`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -13,5 +13,5 @@ Modify this repository's files' content or names as much as you want.
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
-[`unit_test`]: http://repo.local/KennethTrecy/web_template/src/branch/unit_test
+[`sass`]: http://repo.local/KennethTrecy/web_template/src/branch/sass
 [Web Template]: http://repo.local/KennethTrecy/web_template
