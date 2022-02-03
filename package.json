@@ -2,6 +2,8 @@
 	"name": "web_template",
 	"description": "A simple web template for general reuse.",
 	"version": "0.1.0-dev",
+	"homepage": "https://github.com/KennethTrecy/web_template",
+	"license": "MIT",
 	"main": "src/index.js",
 	"private": true,
 	"scripts": {
@@ -16,7 +18,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.17.0",
 		"@babel/preset-env": "^7.16.11",
-		"comroconbu": "git+http://repo.local/KennethTrecy/comroconbu#v0.1.1",
+		"comroconbu": "git+https://github.com/KennethTrecy/comroconbu#v0.2.0",
 		"jest": "^27.4.7",
 		"regenerator-runtime": "^0.13.9",
 		"rollup": "^2.67.0",
