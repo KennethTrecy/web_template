@@ -33,6 +33,8 @@ This branch can be used to other branches, templates, or projects.
 [`rollup` package], [`jest` package], and other necessary packages were already installed in this
 branch.
 
+Its name is `filled_base` because it already has necessary packages that most other branches need.
+
 ### Author
 Coded by Kenneth Trecy Tobias.
 
