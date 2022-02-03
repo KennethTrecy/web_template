@@ -6,8 +6,8 @@
 	"private": true,
 	"scripts": {
 		"dev": "npm run development",
-		"development": "npx rollup -c",
-		"watch": "npx rollup -c --watch",
+		"development": "npx rollup -c bundler/dev/rollup.config.js",
+		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
 		"test:unit": "npx jest",
 		"test:watch_unit": "npx jest --watch"
 	},
