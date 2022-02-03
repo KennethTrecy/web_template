@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`comroconbu-sass-vue`] branch of [Web Template].
+The repository was based from [`web_comroconbu-sass-vue`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -45,7 +45,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`comroconbu-sass-vue`]: https://github.com/KennethTrecy/web_template/tree/comroconbu-sass-vue
+[`web_comroconbu-sass-vue`]: https://github.com/KennethTrecy/web_template/tree/web_comroconbu-sass-vue
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
