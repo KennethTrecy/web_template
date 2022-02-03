@@ -22,7 +22,13 @@ The template is specialize for front-end development.
 -->
 
 ## Usage
-Modify this repository's files' content or names as much as you want.
+You can modify this repository's files' content or names as much as you want.
+
+### License
+The repository is licensed under [MIT]. Since this is a template repository, you can remove
+license file if you want to use other license or you will use the template repository for a private
+template/project. You can follow the steps below:
+1. Run `git revert 86a573af` to remove the license completely.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
@@ -40,13 +46,14 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`filled_package_json`]: http://repo.local/KennethTrecy/web_template/src/branch/filled_package_json
+[`filled_package_json`]: https://github.com/KennethTrecy/web_template/tree/filled_package_json
 [Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
 
 [notes]: #notes
-[`vue` branch]: http://repo.local/KennethTrecy/web_template/src/branch/vue
+[`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
+[MIT-0]: https://github.com/KennethTrecy/origenne_template/blob/master/LICENSE
