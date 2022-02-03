@@ -1,4 +1,6 @@
 import { DEVELOPMENT } from "./environments";
+import alias from "@rollup/plugin-alias";
+import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
@@ -18,6 +20,11 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"name": "app"
 			},
 			"plugins": [
+				alias({
+					"entries": {
+						"@": resolve(__dirname, "../../src")
+					}
+				}),
 				vue({
 
 				}),
