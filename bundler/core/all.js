@@ -1,4 +1,5 @@
 import { DEVELOPMENT } from "./environments";
+import scss from "rollup-plugin-scss";
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -11,6 +12,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"name": "app"
 			},
 			"plugins": [
+				scss({
+
+				}),
 				...generalPostPlugins
 			]
 		}
