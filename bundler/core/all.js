@@ -1,4 +1,4 @@
-export default function() {
+export default function(plugins = []) {
 	return [
 		{
 			"input": "src/index.js",
@@ -6,7 +6,10 @@ export default function() {
 				"file": "dist/index.js",
 				"format": "iife",
 				"interop": "auto"
-			}
+			},
+			"plugins": [
+				...plugins
+			]
 		}
 	];
 }
