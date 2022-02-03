@@ -12,7 +12,7 @@ The repository was based from [`master`] branch of [Origenne Template].
 -->
 
 ## Usage
-Modify this repository's files' content or names as much as you want.
+You can modify this repository's files' content or names as much as you want.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
