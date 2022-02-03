@@ -7,7 +7,8 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 			"output": {
 				"file": "dist/index.js",
 				"format": "iife",
-				"interop": "auto"
+				"interop": "auto",
+				"name": "app"
 			},
 			"plugins": [
 				...generalPostPlugins
