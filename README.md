@@ -6,7 +6,7 @@ other existing templates/projects.
 This template has multiple branches that are named after the main package(s) they contain. For
 example, [`rollup` branch] contains [`rollup` package]. If there multiple packages in a branch
 features, they are concatenated using `-` character. By default, they contain [`jest` package] as
-the default testing framework.
+the default testing framework and `rollup` as default module bundler.
 
 The only exceptions are the `empty_package_json` (contains no package) and `js_unit_test` (contains [`jest`
 package] and it is a parent branch of most other branches).
