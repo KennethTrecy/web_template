@@ -3,6 +3,7 @@
 	"description": "A simple web template for general reuse.",
 	"version": "0.1.0-dev",
 	"homepage": "https://github.com/KennethTrecy/web_template",
+	"license": "MIT",
 	"main": "src/index.js",
 	"private": true,
 	"scripts": {
