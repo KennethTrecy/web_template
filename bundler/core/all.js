@@ -1,4 +1,5 @@
 import { DEVELOPMENT } from "./environments";
+import vue from "@vitejs/plugin-vue";
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -11,6 +12,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"name": "app"
 			},
 			"plugins": [
+				vue({
+
+				}),
 				...generalPostPlugins
 			]
 		}
