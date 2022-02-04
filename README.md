@@ -48,7 +48,7 @@ Coded by Kenneth Trecy Tobias.
 <!--
 
 [`filled_package_json`]: https://github.com/KennethTrecy/web_template/tree/filled_package_json
-[Web Template]: http://repo.local/KennethTrecy/web_template
+[Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
 
