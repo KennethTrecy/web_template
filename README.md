@@ -49,7 +49,7 @@ Coded by Kenneth Trecy Tobias.
 <!--
 
 [`master`]: https://github.com/KennethTrecy/web_template/
-[Web Template]: http://repo.local/KennethTrecy/web_template
+[Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
 
