@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`master`] branch of [Web Template].
+The repository was based from [`web_comroconbu-sass-vue`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -29,6 +29,7 @@ The repository is licensed under [MIT]. Since this is a template repository, you
 license file if you want to use other license or you will use the template repository for a private
 template/project. You can follow the steps below:
 1. Run `git revert 86a573af` to remove the license completely.
+2. Run `git revert 1331676b` to remove license field in `package.json`.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
@@ -37,13 +38,18 @@ It is optional to attribute this repository in other template/projects.
 The template in this branch is specialize for opinionated front-end development. You can choose
 other branches to base from if you want to.
 
+This branch can be used to other branches, templates, or projects.
+
+[`rollup` package], [`jest` package], and other necessary packages were already installed in this
+branch.
+
 ### Author
 Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: http://github.com/KennethTrecy/web_template
-[Web Template]: http://github.com/KennethTrecy/web_template
+[`web_comroconbu-sass-vue`]: https://github.com/KennethTrecy/web_template/tree/web_comroconbu-sass-vue
+[Web Template]: http://repo.local/KennethTrecy/web_template
 
 -->
 

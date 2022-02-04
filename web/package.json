@@ -1,0 +1,38 @@
+{
+	"name": "web_template",
+	"description": "A simple web template for general reuse.",
+	"version": "0.1.0-dev",
+	"homepage": "https://github.com/KennethTrecy/web_template",
+	"license": "MIT",
+	"main": "src/index.js",
+	"private": true,
+	"scripts": {
+		"dev": "npm run development",
+		"development": "npx rollup -c bundler/dev/rollup.config.js",
+		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
+		"prod": "npm run production",
+		"production": "npx rollup -c bundler/prod/rollup.config.js",
+		"test:unit": "npx jest",
+		"test:watch_unit": "npx jest --watch"
+	},
+	"dependencies": {
+		"vue": "^3.2.29"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.0",
+		"@babel/preset-env": "^7.16.11",
+		"@rollup/plugin-alias": "^3.1.9",
+		"@rollup/plugin-node-resolve": "^13.1.3",
+		"@rollup/plugin-replace": "^3.0.1",
+		"@vitejs/plugin-vue": "^2.1.0",
+		"@vue/test-utils": "^2.0.0-rc.18",
+		"@vue/vue3-jest": "^27.0.0-alpha.4",
+		"comroconbu": "github:KennethTrecy/comroconbu#v0.2.0",
+		"jest": "^27.4.7",
+		"regenerator-runtime": "^0.13.9",
+		"rollup": "^2.67.0",
+		"rollup-plugin-scss": "^3.0.0",
+		"rollup-plugin-terser": "^7.0.2",
+		"sass": "^1.49.7"
+	}
+}
