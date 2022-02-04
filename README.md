@@ -46,7 +46,7 @@ Coded by Kenneth Trecy Tobias.
 <!--
 
 [`comroconbu`]: https://github.com/KennethTrecy/web_template/tree/comroconbu
-[Web Template]: http://repo.local/KennethTrecy/web_template
+[Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
 
