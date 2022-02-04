@@ -34,7 +34,8 @@ template/project. You can follow the steps below:
 It is optional to attribute this repository in other template/projects.
 
 ### Branch
-This branch is not recommended to be a template for projects. However, it can be included to other branches or templates.
+The template in this branch is specialize for opinionated front-end development. You can choose
+other branches to base from if you want to.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
