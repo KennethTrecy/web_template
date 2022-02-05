@@ -6,6 +6,20 @@
 	<title>Sample structure</title>
 </head>
 <body>
-	<div id="app"></div>
+	<div id="app">Hello world</div>
+	Clicked <button id="clicked_times" onclick="addClicks()"></button>
+	<script>
+		clicks = 0;
+
+		function showClicks() {
+			document.getElementById("clicked_times").innerHTML = clicks + " times";
+		}
+		function addClicks() {
+			clicks++;
+			showClicks();
+		}
+
+		showClicks();
+	</script>
 </body>
 </html>
