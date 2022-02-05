@@ -3,13 +3,12 @@ This is a web template repository of Kenneth Trecy Tobias. Its purpose is to be 
 templates/projects either by forking this repository, copying its files, or merging its history to
 other existing templates/projects.
 
-This template has multiple branches that are named after the main package(s) they contain. For
-example, [`vue` branch] contains [`vue` package]. If there multiple packages in a branch features,
-they are concatenated using `-` character. By default, they contain [`jest` package] as the default
-JavaScript testing framework and [`rollup` package] as default JavaScript module bundler.
+This template has multiple branches that are named after the main package(s)/purpose they contain.
+For example, [`vue` branch] contains [`vue` package]. If branch has multiple packages/purpose, they
+are concatenated using `-` character. By default, most branches contain [`jest` package] as the
+default JavaScript testing framework and [`rollup` package] as default JavaScript module bundler.
 
-There are some exceptions that do not follow general guidelines above. See the [notes] section for
-more information.
+You can check the packages and/or purpose of the branch by reading the [notes] section.
 
 <!--
 The `origin` section may be used to indicate where the project (that is using this template) came from.
