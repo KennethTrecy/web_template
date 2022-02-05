@@ -37,7 +37,7 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-It does not include any package.
+[`phpunit/phpunit` package] was already installed.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
@@ -54,4 +54,5 @@ Coded by Kenneth Trecy Tobias.
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
+[`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
