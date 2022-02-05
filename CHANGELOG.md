@@ -1,4 +1,4 @@
-# Changes
+# Changelog
 
 ## February 4, 2022
 - Push initial branches:
