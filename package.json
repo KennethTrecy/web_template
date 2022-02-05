@@ -13,6 +13,6 @@
 
 	},
 	"devDependencies": {
-
+		"testcafe": "^1.18.3"
 	}
 }
