@@ -1,6 +1,7 @@
 .vscode
 !/.vscode
 
+/.env
 composer.lock
 /vendor
 /.phpunit.result.cache

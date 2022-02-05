@@ -2,7 +2,7 @@
 	"name": "kennethtrecy/web_template",
 	"type": "library",
 	"description": "A simple web template for general reuse.",
-	"keywords": [],
+	"keywords": ["back-end", "web", "template"],
 	"homepage": "https://github.com/KennethTrecy/web_template",
 	"license": "MIT",
 	"authors": [
