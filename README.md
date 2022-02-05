@@ -17,7 +17,7 @@ The `origin` section may be used to indicate where the project (that is using th
 ## Origin
 The repository was based from [`plugin`] branch of [Web Template].
 
-The template is specialize for backend-end development.
+The template is specialize for [Laravel package development].
 
 -->
 
@@ -55,4 +55,5 @@ Coded by Kenneth Trecy Tobias.
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
 [`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
+[Laravel package development]: https://laravel.com/docs/8.x/packages
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
