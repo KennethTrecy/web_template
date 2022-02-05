@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`empty_package_json`] branch of [Web Template].
+The repository was based from [`e2e`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -44,7 +44,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`empty_package_json`]: https://github.com/KennethTrecy/web_template/tree/empty_package_json
+[`e2e`]: https://github.com/KennethTrecy/web_template/tree/e2e
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
