@@ -15,7 +15,7 @@ more information.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`filled_composer_json`] branch of [Web Template].
+The repository was based from [`plugin`] branch of [Web Template].
 
 The template is specialize for backend-end development.
 
@@ -44,7 +44,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`filled_composer_json`]: https://github.com/KennethTrecy/web_template/tree/filled_composer_json
+[`plugin`]: https://github.com/KennethTrecy/web_template/tree/plugin
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
