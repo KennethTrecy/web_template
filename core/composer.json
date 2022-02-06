@@ -1,0 +1,48 @@
+{
+	"name": "kennethtrecy/web_template",
+	"type": "library",
+	"description": "A simple web template for general reuse.",
+	"keywords": ["back-end", "web", "template"],
+	"homepage": "https://github.com/KennethTrecy/web_template",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kenneth Trecy Tobias",
+			"email": "web.kennethtobias@gmail.com",
+			"homepage": "https://github.com/KennethTrecy",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.3|^8.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5",
+		"laravel/framework": "^8.82",
+		"orchestra/testbench": "^6.24"
+	},
+	"autoload": {
+
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "t/"
+		}
+	},
+	"scripts": {
+		"test:offline:fast": [
+			"./vendor/bin/phpunit --testsuite Unit,Feature"
+		],
+		"test:offline:slow": [
+			"./vendor/bin/phpunit --testsuite Integration"
+		],
+		"test:offline:all": [
+			"./vendor/bin/phpunit"
+		]
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"secure-http": true
+	}
+}

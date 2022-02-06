@@ -16,7 +16,7 @@ The `origin` section may be used to indicate where the project (that is using th
 ## Origin
 The repository was based from [`master`] branch of [Web Template].
 
-The template is specialize for front-end development.
+The template is specialize for [Laravel package development].
 
 -->
 
@@ -29,18 +29,19 @@ license file if you want to use other license or you will use the template repos
 template/project. You can follow the steps below:
 1. Run `git revert 86a573af` to remove the license completely.
 2. Remove license field in `package.json`.
+2. Run `git revert 1a943b54` to revert license field in `composer.json` to `proprietary`.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
 ### Branch
-The template in this branch is specialize for opinionated front-end development. You can choose
+The template in this branch is specialize for opinionated fullstack development. You can choose
 other branches to base from if you want to.
 
 This branch can be used to other branches, templates, or projects.
 
-[`rollup` package], [`jest` package], and other necessary packages were already installed in this
-branch.
+[`rollup` package], [`jest` package], [`phpunit/phpunit` package], and other necessary packages were
+already installed in this branch.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
@@ -57,4 +58,6 @@ Coded by Kenneth Trecy Tobias.
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
+[`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
+[Laravel package development]: https://laravel.com/docs/8.x/packages
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
