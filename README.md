@@ -16,7 +16,7 @@ The `origin` section may be used to indicate where the project (that is using th
 ## Origin
 The repository was based from [`initial`] branch of [Web Template].
 
-The template is specialize for front-end development.
+The template is specialize for general web development.
 
 -->
 
