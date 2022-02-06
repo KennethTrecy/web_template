@@ -1,5 +1,13 @@
 # Changelog
 
+## February 6, 2022
+- Push new branches:
+  - `empty_composer_json`
+  - `filled_composer_json`
+  - `plugin`
+  - `core_plugin`
+- Tag the `master` branch as `v0.1.3-web_template`
+
 ## February 5, 2022
 - Push new branch `e2e`
 - Fix some links and documentation
