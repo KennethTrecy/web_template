@@ -34,7 +34,8 @@ template/project. You can follow the steps below:
 It is optional to attribute this repository in other template/projects.
 
 ### Branch
-This branch can be used to other branches, templates, or projects.
+This branch can be used to other branches, templates, or projects. The plugin serves as the core of
+back-end.
 
 [`phpunit/phpunit` package] was already installed.
 
