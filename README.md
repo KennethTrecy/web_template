@@ -14,7 +14,7 @@ You can check the packages and/or purpose of the branch by reading the [notes] s
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`plugin`] branch of [Web Template].
+The repository was based from [`core_plugin`] branch of [Web Template].
 
 The template is specialize for [Laravel package development].
 
@@ -43,7 +43,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`plugin`]: https://github.com/KennethTrecy/web_template/tree/plugin
+[`core_plugin`]: https://github.com/KennethTrecy/web_template/tree/core_plugin
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
