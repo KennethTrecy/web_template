@@ -10,5 +10,20 @@
 	<div id="app"></div>
 	<script src="../dist/third-party/vue.js"></script>
 	<script src="../dist/index.js"></script>
+	<div id="app">Hello world</div>
+	Clicked <button id="clicked_times" onclick="addClicks()"></button>
+	<script>
+		clicks = 0;
+
+		function showClicks() {
+			document.getElementById("clicked_times").innerHTML = clicks + " times";
+		}
+		function addClicks() {
+			clicks++;
+			showClicks();
+		}
+
+		showClicks();
+	</script>
 </body>
 </html>

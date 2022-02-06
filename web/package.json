@@ -34,6 +34,7 @@
 		"rollup": "^2.67.0",
 		"rollup-plugin-scss": "^3.0.0",
 		"rollup-plugin-terser": "^7.0.2",
-		"sass": "^1.49.7"
+		"sass": "^1.49.7",
+		"testcafe": "^1.18.3"
 	}
 }

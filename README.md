@@ -40,8 +40,8 @@ other branches to base from if you want to.
 
 This branch can be used to other branches, templates, or projects.
 
-[`rollup` package], [`jest` package], [`phpunit/phpunit` package], and other necessary packages were
-already installed in this branch.
+[`rollup` package], [`jest` package], [`phpunit/phpunit` package], [`testcafe` package],and other
+necessary packages were already installed in this branch.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
@@ -59,4 +59,5 @@ Coded by Kenneth Trecy Tobias.
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
 [`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
+[`testcafe` package]: https://www.npmjs.com/package/testcafe
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
