@@ -29,7 +29,7 @@ license file if you want to use other license or you will use the template repos
 template/project. You can follow the steps below:
 1. Run `git revert 86a573af` to remove the license completely.
 2. Remove license field in `web/package.json`.
-3. Run `git revert 1a943b54` to revert license field in `composer.json` to `proprietary`.
+3. Remove license field in `core/package.json`.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
