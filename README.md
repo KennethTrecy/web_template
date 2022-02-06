@@ -36,7 +36,7 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-[`phpunit/phpunit` package] was already installed.
+[`phpunit/phpunit` package], and other necessary packages were already installed.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
