@@ -39,6 +39,9 @@ back-end.
 
 [`phpunit/phpunit` package] was already installed.
 
+This branch was intended to merge with other branches that may happen to group a major
+component/system into a folder.
+
 ### Author
 Coded by Kenneth Trecy Tobias.
 
