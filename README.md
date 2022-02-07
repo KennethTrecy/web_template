@@ -30,6 +30,7 @@ template/project. You can follow the steps below:
 1. Run `git revert 86a573af` to remove the license completely.
 2. Remove license field in `web/package.json`.
 3. Remove license field in `core/package.json`.
+2. Remove license field in `t/package.json`.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
