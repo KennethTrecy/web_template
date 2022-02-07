@@ -14,7 +14,7 @@ You can check the packages and/or purpose of the branch by reading the [notes] s
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`e2e`] branch of [Web Template].
+The repository was based from [`t_e2e`] branch of [Web Template].
 
 The template is specialize for end-to-end testing.
 
@@ -43,7 +43,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`e2e`]: https://github.com/KennethTrecy/web_template/tree/e2e
+[`t_e2e`]: https://github.com/KennethTrecy/web_template/tree/t_e2e
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
