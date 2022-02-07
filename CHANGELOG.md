@@ -1,7 +1,7 @@
 # Changelog
 
 ## February 6 - 7, 2022
-- Push `t__e2e` branch and merge to `master` branch.
+- Push `t_e2e` branch and merge to `master` branch.
 - Add default [phpDocumentor](https://phpdoc.org/) configuration.
 - Default to `testing` database connection in `plugin` branch.
 - Configure to sort the packages in `composer.json`.
