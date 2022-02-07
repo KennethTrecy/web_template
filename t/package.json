@@ -8,8 +8,8 @@
 	"main": "src/index.js",
 	"private": true,
 	"scripts": {
-		"test:firefox": "testcafe firefox t/e2e",
-		"test:chrome": "testcafe chrome t/e2e"
+		"test:firefox": "testcafe firefox e2e",
+		"test:chrome": "testcafe chrome e2e"
 	},
 	"dependencies": {
 
