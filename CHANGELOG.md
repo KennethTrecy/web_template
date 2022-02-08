@@ -1,5 +1,9 @@
 # Changelog
 
+## February 8, 2022
+- Ignore some files and directories anywhere.
+- Set `extra` field in `composer.json` from `plugin` branch to allow auto-discovery of the plugin.
+
 ## February 6 - 7, 2022
 - Push `t_e2e` branch and merge to `master` branch.
 - Add default [phpDocumentor](https://phpdoc.org/) configuration.
