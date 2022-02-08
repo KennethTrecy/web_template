@@ -1,7 +1,7 @@
 .vscode
 !/.vscode
 
-/.env
+.env
 node_modules
 package-lock.json
 composer.lock
