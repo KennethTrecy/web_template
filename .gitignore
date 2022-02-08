@@ -5,7 +5,7 @@
 node_modules
 package-lock.json
 composer.lock
-/vendor
-/.phpunit.result.cache
+vendor
+.phpunit.result.cache
 
 *hidden*
