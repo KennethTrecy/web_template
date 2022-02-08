@@ -1,7 +1,7 @@
 .vscode
 !/.vscode
 
-/.env
+.env
 composer.lock
 vendor
 
