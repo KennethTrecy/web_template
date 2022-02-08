@@ -3,6 +3,6 @@
 
 /.env
 composer.lock
-/vendor
+vendor
 
 *hidden*
