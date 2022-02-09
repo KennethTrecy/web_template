@@ -1,5 +1,9 @@
 # Changelog
 
+## February 9, 2022
+- Update some dependencies from `plugin` branch.
+- Tag the `master` branch as `v0.3.0-web_template`
+
 ## February 8, 2022
 - Ignore some files and directories anywhere.
 - Set `extra` field in `composer.json` from `plugin` branch to allow auto-discovery of the plugin.
