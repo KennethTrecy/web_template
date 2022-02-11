@@ -30,6 +30,15 @@
 		}
 	},
 	"scripts": {
+		"coverage:offline:fast": [
+			"composer run test:offline:fast -- --coverage-html hidden_coverage --coverage-filter src"
+		],
+		"coverage:offline:slow": [
+			"composer run test:offline:slow -- --coverage-html hidden_coverage --coverage-filter src"
+		],
+		"coverage:offline:all": [
+			"composer run test:offline:all -- --coverage-html hidden_coverage --coverage-filter src"
+		],
 		"test:offline:fast": [
 			"./vendor/bin/phpunit --testsuite Unit,Feature"
 		],
