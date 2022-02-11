@@ -2,8 +2,10 @@
 
 namespace KennethTrecy;
 
-class Index {
-	public static function multiply(int $multiplicand, int $multiplier) {
-		return $multiplicand * $multiplier;
-	}
+class Index
+{
+    public static function multiply(int $multiplicand, int $multiplier)
+    {
+        return $multiplicand * $multiplier;
+    }
 }
