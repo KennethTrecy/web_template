@@ -1,5 +1,10 @@
 # Changelog
 
+## February 11, 2022
+- Add scripts to generate code coverage report from `filled_composer_json` branch.
+- Add scripts to fix code to follow [PSR-12](https://www.php-fig.org/psr/psr-12/) standard from `filled_composer_json` branch.
+- Tag the `master` branch as `v0.3.2-web_template`
+
 ## February 9, 2022
 - Update some dependencies from `plugin` branch.
 - Tag the `master` branch as `v0.3.1-web_template`
