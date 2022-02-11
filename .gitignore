@@ -4,6 +4,6 @@
 .env
 composer.lock
 vendor
-.phpunit.result.cache
+*.cache
 
 *hidden*
