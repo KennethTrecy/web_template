@@ -34,8 +34,8 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: http://repo.local/KennethTrecy/origenne_template
-[Origenne Template]: http://repo.local/KennethTrecy/origenne_template
+[`master`]: https://github.com/KennethTrecy/origenne_template
+[Origenne Template]: https://github.com/KennethTrecy/origenne_template
 
 -->
 
