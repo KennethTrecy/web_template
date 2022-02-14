@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 param($mode)
 
 if ($mode -eq "strict" || $mode -eq "gone") {
