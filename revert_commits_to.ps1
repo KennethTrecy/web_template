@@ -15,5 +15,5 @@ if ($mode -eq "retain") {
 	Write-Output "License will be retained."
 }
 
-Remove-Item make_license.ps1
+Remove-Item revert_commits_to.ps1
 Write-Output "Removed this script."
