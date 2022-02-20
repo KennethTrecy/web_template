@@ -1,11 +1,11 @@
 #!/usr/bin/env pwsh
 param($branch)
 
-git checkout $branch
-git pull
+git checkout template--$branch
+git pull template $branch
 git checkout merged_template
 
-git merge $branch
+git merge template--$branch
 if ($LastExitCode -ne 0) {
 	& git status
 
@@ -22,7 +22,7 @@ git merge master
 if ($LastExitCode -ne 0) {
 	& git status
 
-	$answer = Read-Host -prompt "Have you fixed the conflicts? Enter 'y' to continue"
+	$answer = Read-Host -prompt "Have you fixed the conflicts (currently in merged template)? Enter 'y' to continue"
 	if ($answer -eq "y") {
 		& git add .
 		& git commit
@@ -37,7 +37,7 @@ git checkout merged_template -- .
 if ($LastExitCode -ne 0) {
 	& git status
 
-	$answer = Read-Host -prompt "Have you fixed the conflicts? Enter 'y' to continue"
+	$answer = Read-Host -prompt "Have you fixed the conflicts (currently in master)? Enter 'y' to continue"
 	if ($answer -ne "y") {
 		exit 1
 	}
