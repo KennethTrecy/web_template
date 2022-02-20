@@ -1,9 +1,13 @@
 # Changelog
 
+## v0.3.0-origenne_template
+- From now on, it will now use tags as header for the version.
+- Improve the scripts
+
 ## February 12, 2022
 - Fix some URLs in README.
 - Tag the `master` branch as v0.2.1-origenne_template.
--
+
 ## February 8, 2022
 - Ignore `.env` file anywhere.
 - Tag the `master` branch as v0.2.0-origenne_template.
