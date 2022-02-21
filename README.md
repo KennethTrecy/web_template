@@ -44,11 +44,12 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 ### License
 The repository is licensed under [MIT]. Since this is a template repository, you can remove
 license file if you want to use other license or you will use the template repository for a private
-template/project. You can follow the steps below:
-1. Run `git revert 86a573af` to remove the license completely.
-2. Remove license field in `web/package.json`.
-3. Remove license field in `core/package.json`.
-4. Remove license field in `t/package.json`.
+template/project. You can run of the following below:
+- Run `./revert_commits_to.ps1 remove` to remove the license completely.
+- Run `./revert_commits_to.ps1 retain` does nothing aside from informing you that license will be
+  retained.
+
+After that, *revert_commits_to.ps1* will be removed.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
