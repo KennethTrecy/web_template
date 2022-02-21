@@ -24,6 +24,8 @@ jobs:
         COMPOSER_TOKEN: ${{ secrets.COMPOSER_TOKEN }}
     - uses: actions/checkout@v2
     - name: Install dependencies
+      working-directory: core
       run: composer install --quiet --no-ansi --no-interaction --no-progress
     - name: Run tests
+      working-directory: core
       run: composer run test:offline:fast
