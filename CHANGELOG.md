@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.3-web_template
+- Add workflows for web and core.
+- Improve scripts to remove or revert the commits related to license.
+- Merge commits have empty email to find the changes faster.
+
 ## February 11, 2022
 - Add scripts to generate code coverage report from `filled_composer_json` branch.
 - Add scripts to fix code to follow [PSR-12](https://www.php-fig.org/psr/psr-12/) standard from `filled_composer_json` branch.
