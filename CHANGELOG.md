@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.3.4-web_template
+- Applied some fixes from [Origenne template](https://github.com/KennethTrecy/origenne_template).
+
 ## v0.3.3-web_template
 - Add workflows for web and core.
 - Improve scripts to remove or revert the commits related to license.
