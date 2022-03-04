@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.3.1-origenne_template
+- Fix the reverse script
+
 ## v0.3.0-origenne_template
 - From now on, it will now use tags as header for the version.
 - Improve the scripts
