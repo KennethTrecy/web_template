@@ -5,10 +5,10 @@ other existing templates/projects.
 
 <!--
 The `origin` section may be used to indicate where the project (that is using this template) came
-from.
+from or based from.
 
 ## Origin
-The repository was based from [`master`] branch of [Origenne Template].
+Some parts of repository was based from [`master`] branch of [Origenne Template].
 
 -->
 
