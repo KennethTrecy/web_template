@@ -1,0 +1,32 @@
+version: "3"
+
+networks:
+  web_template:
+    external: false
+
+services:
+  ui_server:
+    build:
+      context: .
+    image: web_template:dev
+    restart: always
+    networks:
+      - web_template
+    volumes:
+      - ./src:/var/www/html/app/src
+      - ./.git:/var/www/html/app/.git
+      - ui_server_root:/var/www/html/app
+    ports:
+      - "12000:8000"
+    command: npx vite serve --host
+
+  ui_server_test:
+    image: web_template:dev
+    volumes:
+      - ./src:/var/www/html/app/src
+      - ./.git:/var/www/html/app/.git
+      - ui_server_root:/var/www/html/app
+    command: npx jest --watch
+
+volumes:
+  ui_server_root:
