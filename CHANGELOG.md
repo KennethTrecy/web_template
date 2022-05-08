@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3.5-web_template
+- Push new branches:
+  - `vite`
+  - `containerized-vite`
+  - `rollup`
+
 ## v0.3.4-web_template
 - Applied some fixes from [Origenne template](https://github.com/KennethTrecy/origenne_template).
 
