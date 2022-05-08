@@ -8,25 +8,50 @@ services:
   ui_server:
     build:
       context: .
+      target: dev
     image: web_template:dev
-    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: "0.40"
+          memory: 100M
+    restart: on-failure
     networks:
       - web_template
     volumes:
       - ./src:/var/www/html/app/src
-      - ./.git:/var/www/html/app/.git
       - ui_server_root:/var/www/html/app
     ports:
       - "12000:8000"
     command: npx vite serve --host
 
   ui_server_test:
-    image: web_template:dev
+    build:
+      context: .
+      target: test
+    image: web_template:test
+    deploy:
+      restart_policy:
+        delay: 5s
+        window: 30s
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 50M
     volumes:
-      - ./src:/var/www/html/app/src
-      - ./.git:/var/www/html/app/.git
+      - type: bind
+        source: "./.git"
+        target: "/var/www/html/.git"
+      - type: bind
+        source: "./src"
+        target: "/var/www/html/app/src"
+      - type: bind
+        source: "./t"
+        target: "/var/www/html/app/t"
       - ui_server_root:/var/www/html/app
-    command: npx jest --watch
+    tty: true
+    stdin_open: false
+    command: npx jest
 
 volumes:
   ui_server_root:
