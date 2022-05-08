@@ -2,9 +2,10 @@
 
 ## v0.3.5-web_template
 - Push new branches:
-  - `vite`
-  - `containerized-vite`
   - `rollup`
+  - `vite`
+  - `contained_vite`
+  - `web_contained_vite`
 
 ## v0.3.4-web_template
 - Applied some fixes from [Origenne template](https://github.com/KennethTrecy/origenne_template).
