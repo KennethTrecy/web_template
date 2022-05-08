@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`filled_base`] branch of [Web Template].
+Some parts of the repository was based from [`rollup`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -57,14 +57,12 @@ This branch can be used to other branches, templates, or projects.
 [`rollup` package], [`jest` package], and other necessary packages were already installed in this
 branch.
 
-Its name is `filled_package_json` because it already has necessary packages that most other branches need.
-
 ### Author
 Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`filled_package_json`]: https://github.com/KennethTrecy/web_template/tree/filled_package_json
+[`rollup`]: https://github.com/KennethTrecy/web_template/tree/rollup
 [Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
