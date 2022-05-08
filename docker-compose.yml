@@ -19,8 +19,8 @@ services:
     networks:
       - web_template
     volumes:
-      - ./src:/var/www/html/app/src
-      - ui_server_root:/var/www/html/app
+      - ./web:/var/www/html/app/web
+      - ui_server_root:/var/www/html/app/web/node_modules
     ports:
       - "12000:8000"
     command: npx vite serve --host
@@ -43,12 +43,9 @@ services:
         source: "./.git"
         target: "/var/www/html/.git"
       - type: bind
-        source: "./src"
-        target: "/var/www/html/app/src"
-      - type: bind
-        source: "./t"
-        target: "/var/www/html/app/t"
-      - ui_server_root:/var/www/html/app
+        source: "./web"
+        target: "/var/www/html/app/web"
+      - ui_server_root:/var/www/html/app/web/node_modules
     tty: true
     stdin_open: false
     command: npx jest
