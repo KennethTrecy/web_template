@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`filled_base`] branch of [Web Template].
+Some parts of the repository was based from [`filled_package_json`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
