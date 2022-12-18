@@ -20,6 +20,7 @@ module.exports = {
 				"ci",
 				"dprct",
 				"remove",
+				"dx",
 				"security",
 				"revert",
 				"internal"
