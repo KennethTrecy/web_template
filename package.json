@@ -1,0 +1,7 @@
+{
+  "name": "origenne_template",
+  "version": "v0.3.3-origenne_template-dev",
+  "description": "This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
+  "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
+  "private": "true"
+}
