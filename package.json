@@ -3,5 +3,13 @@
   "version": "v0.3.3-origenne_template-dev",
   "description": "This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
   "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
-  "private": "true"
+  "private": "true",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
