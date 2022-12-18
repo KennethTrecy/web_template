@@ -23,7 +23,9 @@ module.exports = {
 				"dx",
 				"security",
 				"revert",
-				"internal"
+				"internal",
+				// This will not be included in the change log.
+				"release"
 			]
 		],
 		"type-max-length": [ 2, "never", 8 ]
