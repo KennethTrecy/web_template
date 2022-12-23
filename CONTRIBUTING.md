@@ -27,4 +27,4 @@ different contents can be found in [`.editorconfig`].
 
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
 [initialization steps]: ./README.md#initialization
-[`.editorconfig`]: ./editorconfig
+[`.editorconfig`]: ./.editorconfig
