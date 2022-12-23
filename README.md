@@ -41,7 +41,7 @@ $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
 ```
 
 ### Syncing template
-You can merge this repository's history with your current project to synchronized its files from the
+You can merge this repository's history with your current project to synchronized your files from the
 template. Steps below indicate how you can synchronized the changes.
 1. Run `git remote add template [URL of this repository]`.
 2. Run `git fetch template [branch you want to use from the template]`.
@@ -59,7 +59,7 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 
 ### License
 The repository is licensed under [MIT-0]. Since this is a template repository, you can remove
-license file if you want to use other license or you will use the template repository for a private
+license file if you want to use other license or you can use the template repository for a private
 template/project. You can run of the following below:
 - Run `./revert_commits_to.ps1 strict` to revert the license back to MIT license.
 - Run `./revert_commits_to.ps1 remove` to remove the license completely.
