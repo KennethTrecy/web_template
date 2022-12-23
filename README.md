@@ -71,6 +71,9 @@ After that, *revert_commits_to.ps1* will be removed.
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
+### Want to contribute?
+Read [contributing guide] for different ways to contribute in the project.
+
 ### How this name came up
 - Orig = ORIGin. Where the other projects would start.
 - Gen = GENeral. It is for general purpose.
@@ -90,3 +93,4 @@ Coded by Kenneth Trecy Tobias.
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
+[contributing guide]: ./CONTRIBUTING.md
