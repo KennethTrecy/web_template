@@ -23,16 +23,11 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
+**Platform (please complete the following information):**
+ - Device: [e.g. Desktop (for mobile or tablets, be more specific like iPhone6 or Android 4.1)]
  - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+ - Browser and its version: [e.g. Chrome, Safari]
+ - Package version: [e.g. v0.1.0 from this repository]
 
 **Additional context**
 Add any other context about the problem here.
