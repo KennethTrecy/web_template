@@ -1,5 +1,10 @@
-import subtract from "@/subtract"
+import App from "@/app.svelte"
 
-const sample = subtract
+var app = new App({
+	"target": document.body,
+	"props": {
+		"name": "world"
+	}
+})
 
-export default sample
+export default app
