@@ -5,8 +5,8 @@ other existing templates/projects.
 
 This template has multiple branches that are named after the main package(s)/purpose they contain.
 For example, [`vue` branch] contains [`vue` package]. If branch has multiple packages/purpose, they
-are concatenated using `-` character. By default, most branches contain [`jest` package] as the
-default JavaScript testing framework and [`rollup` package] as default JavaScript module bundler.
+are concatenated using `-` character. By default, most branches contain [`rollup` package] as
+default JavaScript module bundler.
 
 You can check the packages and/or purpose of the branch by reading the [notes] section.
 
@@ -83,8 +83,7 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-[`rollup` package], [`jest` package], and other necessary packages were already installed in this
-branch.
+[`rollup` package], and other necessary packages were already installed in this branch.
 
 Its name is `filled_package_json` because it already has necessary packages that most other branches need.
 
@@ -105,7 +104,6 @@ Coded by Kenneth Trecy Tobias.
 [`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
-[`jest` package]: https://www.npmjs.com/package/jest
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
