@@ -1,3 +1,10 @@
-export default function(subtrahend, minuend) {
-	return subtrahend - minuend;
-}
+import App from "./app.svelte"
+
+var app = new App({
+	"target": document.body,
+	"props": {
+		"name": "world"
+	}
+})
+
+export default app
