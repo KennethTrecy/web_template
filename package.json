@@ -1,19 +1,21 @@
 {
 	"name": "web_template",
-	"description": "A simple web template for general reuse.",
-	"version": "0.1.0-dev",
+	"version": "v0.4.4-web_template-dev",
+	"description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
 	"homepage": "https://github.com/KennethTrecy/web_template",
 	"keywords": ["front-end", "web", "template-repository"],
+	"private": "true",
 	"license": "MIT",
-	"main": "src/index.js",
-	"private": true,
 	"scripts": {
-
+		"prepare": "husky install"
 	},
 	"dependencies": {
 
 	},
 	"devDependencies": {
-
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"changelogen": "^0.4.0",
+		"husky": "^8.0.0"
 	}
 }
