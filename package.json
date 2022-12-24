@@ -17,8 +17,8 @@
 		"watch": "echo watched development bundler command here",
 		"prod": "npm run production",
 		"production": "echo production bundler command here",
-		"test:unit": "echo test command here",
-		"test:watch_unit": "echo watch test command here"
+		"test:unit": "npx mocha src/**/*.spec.js",
+		"test:watch_unit": "npx mocha src/**/*.spec.js --watch --watch-files src/**/*.spec.js"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
