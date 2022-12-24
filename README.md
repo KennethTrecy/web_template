@@ -83,7 +83,7 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-Its name is `filled_package_json` because it already has information that most other branches need.
+Testing framework and other necessary packages were already installed in this branch.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
