@@ -1,10 +1,10 @@
 {
-  "name": "origenne_template",
-  "version": "v0.4.4-origenne_template",
-  "description": "This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
+  "name": "web_template",
+  "version": "v0.4.4-web_template-dev",
+  "description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
   "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
   "private": "true",
-  "license": "MIT-0",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
