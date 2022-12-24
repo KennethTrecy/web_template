@@ -3,23 +3,29 @@
 	"version": "v0.4.4-web_template-dev",
 	"description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
 	"homepage": "https://github.com/KennethTrecy/web_template",
-	"keywords": ["front-end", "web", "template-repository"],
+	"keywords": [
+		"front-end",
+		"web",
+		"template-repository"
+	],
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
 		"prepare": "husky install",
 		"dev": "npm run development",
-		"development": "echo development bundler command here",
-		"watch": "echo watched development bundler command here",
+		"development": "npx rollup -c bundler/dev/rollup.config.js",
+		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
 		"prod": "npm run production",
-		"production": "echo production bundler command here",
+		"production": "npx rollup -c bundler/prod/rollup.config.js",
 		"test:unit": "echo test command here",
 		"test:watch_unit": "echo watch test command here"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
 		"@commitlint/config-conventional": "^17.3.0",
+		"@rollup/plugin-terser": "^0.2.1",
 		"changelogen": "^0.4.0",
-		"husky": "^8.0.0"
+		"husky": "^8.0.0",
+		"rollup": "^2.67.0"
 	}
 }
