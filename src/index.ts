@@ -1,3 +1,5 @@
-export default function(subtrahend: number, minuend: number): number {
-	return subtrahend - minuend;
-}
+import subtract from "@/subtract"
+
+const sample = subtract
+
+export default sample
