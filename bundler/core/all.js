@@ -1,3 +1,8 @@
+import svelte from "rollup-plugin-svelte"
+import autoPrepocess from "svelte-preprocess"
+import commonjs from "@rollup/plugin-commonjs"
+import nodeResolve from "@rollup/plugin-node-resolve"
+
 import { DEVELOPMENT } from "./environments";
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
@@ -11,6 +16,18 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"name": "app"
 			},
 			"plugins": [
+				svelte({
+					"preprocess": autoPrepocess({
+
+					})
+				}),
+				nodeResolve({
+					"browser": true,
+					"exportConditions": [ "svelte" ],
+					"extensions": [ ".svelte" ],
+					"dedupe": [ "svelte" ]
+				}),
+				commonjs(),
 				...generalPostPlugins
 			]
 		}
