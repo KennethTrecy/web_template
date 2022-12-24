@@ -4,3 +4,7 @@
 .env
 
 *hidden*
+
+package-lock.json
+node_modules
+pnpm-lock.yaml
