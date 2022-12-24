@@ -1,4 +1,5 @@
 import { join } from "path"
+import alias from "@rollup/plugin-alias"
 import svelte from "rollup-plugin-svelte"
 import autoPrepocess from "svelte-preprocess"
 import commonjs from "@rollup/plugin-commonjs"
@@ -28,6 +29,11 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 							"tsconfigFile": TYPESCRIPT_CONFIGURATION
 						}
 					})
+				}),
+				alias({
+					"entries": [
+						{ find: /^@(\/|$)/, replacement: `${ROOT}/src/` }
+					]
 				}),
 				nodeResolve({
 					"browser": true,
