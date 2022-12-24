@@ -23,7 +23,10 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 			"plugins": [
 				svelte({
 					"preprocess": autoPrepocess({
-
+						"typescript": {
+							"tsconfigDirectory": ROOT,
+							"tsconfigFile": TYPESCRIPT_CONFIGURATION
+						}
 					})
 				}),
 				nodeResolve({
