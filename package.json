@@ -34,6 +34,7 @@
 		"rollup": "^2.67.0",
 		"rollup-plugin-svelte": "^7.1.0",
 		"svelte": "^3.55.0",
-		"svelte-preprocess": "^5.0.0"
+		"svelte-preprocess": "^5.0.0",
+		"svelte-test-register": "^0.1.0"
 	}
 }
