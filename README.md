@@ -84,7 +84,7 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-Testing framework and other necessary packages were already installed in this branch.
+[`rollup` package], and other necessary packages were already installed in this branch.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
