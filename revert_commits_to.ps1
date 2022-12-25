@@ -17,5 +17,5 @@ if ($mode -eq "retain") {
 
 Remove-Item revert_commits_to.ps1
 git add revert_commits_to.ps1
-git commit -m "Remove reverse script"
+git commit -m "chore: remove reverse script"
 Write-Output "Removed this script."
