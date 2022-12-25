@@ -5,8 +5,8 @@ other existing templates/projects.
 
 This template has multiple branches that are named after the main package(s)/purpose they contain.
 For example, [`vue` branch] contains [`vue` package]. If branch has multiple packages/purpose, they
-are concatenated using `-` character. By default, most branches contain [`jest` package] as the
-default JavaScript testing framework and [`rollup` package] as default JavaScript module bundler.
+are concatenated using `-` character. By default, most branches contain [`rollup` package] as
+default JavaScript module bundler.
 
 You can check the packages and/or purpose of the branch by reading the [notes] section.
 
@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`empty_package_json`] branch of [Web Template].
+Some parts of the repository was based from [`mocha`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -83,7 +83,7 @@ It is optional to attribute this repository in other template/projects.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-It does not include any package.
+Testing framework and other necessary packages were already installed in this branch.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
@@ -93,8 +93,8 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`empty_package_json`]: https://github.com/KennethTrecy/web_template/tree/empty_package_json
-[Web Template]: http://github.com/KennethTrecy/web_template
+[`mocha`]: https://github.com/KennethTrecy/web_template/tree/mocha
+[Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
 
@@ -102,7 +102,6 @@ Coded by Kenneth Trecy Tobias.
 [`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
-[`jest` package]: https://www.npmjs.com/package/jest
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
