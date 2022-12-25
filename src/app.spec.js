@@ -1,10 +1,26 @@
 var { expect } = require("chai");
-var App = require("./app.svelte")
+const { JSDOM } = require("jsdom")
+const { "default": App } = require("./app.svelte")
 
-describe("Operation", function() {
-	describe("Addition", function() {
-		it("should return 2", function() {
-			expect(1+1).to.equal(2);
+describe("App", function() {
+	describe("Basic", function() {
+		it("should say hello to Alice", function() {
+			const { window } = new JSDOM()
+			const { document } = window
+			const container = document.createElement("div")
+			document.body.appendChild(container)
+			global.window = window
+			global.document = document
+
+			const app = new App({
+				"target": container,
+				"props": {
+					"name": "Alice"
+				}
+			})
+
+			expect(container.querySelector("p")).not.to.null
+			expect(container.querySelector("p").innerHTML).to.equal("Hello Alice!")
 		});
 	});
 });
