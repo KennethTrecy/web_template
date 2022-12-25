@@ -1,6 +1,6 @@
-var { expect } = require("chai");
-const { JSDOM } = require("jsdom")
-const { "default": App } = require("./app.svelte")
+import { expect } from "chai"
+import { JSDOM } from "jsdom"
+import App from "@/app.svelte"
 
 describe("App", function() {
 	describe("Basic", function() {

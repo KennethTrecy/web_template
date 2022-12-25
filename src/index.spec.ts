@@ -1,4 +1,4 @@
-var { expect } = require("chai");
+import { expect } from "chai"
 
 describe("Operation", function() {
 	describe("Addition", function() {
