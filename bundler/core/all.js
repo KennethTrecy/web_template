@@ -1,4 +1,5 @@
 import { join } from "path"
+import scss from "rollup-plugin-scss";
 import alias from "@rollup/plugin-alias"
 import svelte from "rollup-plugin-svelte"
 import autoPrepocess from "svelte-preprocess"
@@ -29,6 +30,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 					"tsconfigFile": TYPESCRIPT_CONFIGURATION
 				}
 			})
+		}),
+		scss({
+
 		}),
 		alias({
 			"entries": [
