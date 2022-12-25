@@ -1,20 +1,23 @@
 {
 	"name": "web_template",
-	"description": "A simple web template for general reuse.",
-	"version": "0.1.0-dev",
+	"version": "v0.4.4-web_template-dev",
+	"description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
 	"homepage": "https://github.com/KennethTrecy/web_template",
 	"keywords": ["e2e", "web", "template-repository"],
 	"license": "MIT",
-	"main": "src/index.js",
-	"private": true,
 	"scripts": {
 		"test:firefox": "testcafe firefox t/e2e",
-		"test:chrome": "testcafe chrome t/e2e"
+		"test:chrome": "testcafe chrome t/e2e",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"changelogen": "^0.4.0",
+		"husky": "^8.0.0",
 		"testcafe": "^1.18.3"
 	}
 }
