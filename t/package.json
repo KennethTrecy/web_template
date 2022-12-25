@@ -9,12 +9,17 @@
 	"private": true,
 	"scripts": {
 		"test:firefox": "testcafe firefox e2e",
-		"test:chrome": "testcafe chrome e2e"
+		"test:chrome": "testcafe chrome e2e",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"changelogen": "^0.4.0",
+		"husky": "^8.0.0",
 		"testcafe": "^1.18.3"
 	}
 }
