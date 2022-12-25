@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`mocha-svelte-typescript`] branch of [Web Template].
+Some parts of the repository was based from [`mocha-svelte-typescript-sass`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -93,8 +93,8 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`mocha-svelte-typescript`]:
-https://github.com/KennethTrecy/web_template/tree/mocha-svelte-typescript
+[`mocha-svelte-typescript-sass`]:
+https://github.com/KennethTrecy/web_template/tree/mocha-svelte-typescript-sass
 [Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
