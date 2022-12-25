@@ -41,9 +41,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return environment === TEST
 	? [
 		{
-			"input": "src/**/*.spec.ts",
+			"input": "src/app.spec.ts",
 			"output": {
-				"file": "hidden/index.js",
+				"file": "hidden/t/app.spec.js",
 				"format": "cjs",
 				"interop": "auto",
 				"name": "tests"
