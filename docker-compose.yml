@@ -13,7 +13,7 @@ services:
     restart: on-failure
     volumes:
       - .:/var/www/html/app
-      - node_modules:/var/www/html/app/node_modules
+      - contained_node_modules:/var/www/html/app/node_modules
 
 volumes:
-  node_modules:
+  contained_node_modules:
