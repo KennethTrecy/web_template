@@ -32,7 +32,7 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 			})
 		}),
 		scss({
-
+			"fileName": "index.css"
 		}),
 		alias({
 			"entries": [
