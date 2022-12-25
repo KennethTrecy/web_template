@@ -1,10 +1,10 @@
 version: "3"
 
 services:
-  base:
+  test:
     build:
       context: .
-      target: base
+      target: test
     deploy:
       resources:
         limits:
@@ -14,6 +14,9 @@ services:
     volumes:
       - .:/var/www/html/app
       - contained_node_modules:/var/www/html/app/node_modules
+    tty: true
+    stdin_open: false
+    command: npm run test:unit
 
 volumes:
   contained_node_modules:
