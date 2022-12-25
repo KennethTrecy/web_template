@@ -9,3 +9,7 @@ vendor
 *.cache
 
 *hidden*
+
+package-lock.json
+node_modules
+pnpm-lock.yaml
