@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`empty_package_json`] branch of [Web Template].
+Some parts of the repository was based from [`docker_js`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -93,7 +93,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`empty_package_json`]: https://github.com/KennethTrecy/web_template/tree/empty_package_json
+[`docker_js`]: https://github.com/KennethTrecy/web_template/tree/docker_js
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
