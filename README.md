@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`sass`] branch of [Web Template].
+Some parts of the repository was based from [`jest-sass`] branch of [Web Template].
 
 The template is specialize for front-end development.
 
@@ -93,7 +93,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`sass`]: https://github.com/KennethTrecy/web_template/tree/sass
+[`jest-sass`]: https://github.com/KennethTrecy/web_template/tree/jest-sass
 [Web Template]: https://github.com/KennethTrecy/web_template/
 
 -->
