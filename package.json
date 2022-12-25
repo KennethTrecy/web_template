@@ -34,7 +34,7 @@
 		"husky": "^8.0.0",
 		"jsdom": "^20.0.3",
 		"mocha": "^10.2.0",
-		"rollup": "^3.8.1",
+		"rollup": "^2.67.0",
 		"rollup-plugin-esbuild-transform": "^1.5.0",
 		"rollup-plugin-svelte": "^7.1.0",
 		"sass": "^1.49.7",
