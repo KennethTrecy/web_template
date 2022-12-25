@@ -26,6 +26,6 @@
 		"@rollup/plugin-terser": "^0.2.1",
 		"changelogen": "^0.4.0",
 		"husky": "^8.0.0",
-		"rollup": "^2.67.0"
+		"rollup": "^3.8.1"
 	}
 }
