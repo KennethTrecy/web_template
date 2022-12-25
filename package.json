@@ -17,8 +17,8 @@
 		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
 		"prod": "npm run production",
 		"production": "npx rollup -c bundler/prod/rollup.config.js",
-		"test:unit": "npx mocha src/**/*.spec.js",
-		"test:watch_unit": "npx mocha src/**/*.spec.js --watch --watch-files src/**/*.spec.js"
+		"test:unit": "npx rollup -c bundler/test/rollup.config.js && npx mocha hidden/t/**/*.js",
+		"test:watch_unit": "npx mocha hidden/t/**/*.js --watch --watch-files hidden/t/**/*.js"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
