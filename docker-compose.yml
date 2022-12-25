@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  base:
+    build:
+      context: .
+      target: base
+    deploy:
+      resources:
+        limits:
+          cpus: "0.10"
+          memory: 25M
+    restart: on-failure
+    volumes:
+      - .:/var/www/html/app
+      - node_modules:/var/www/html/app/node_modules
+
+volumes:
+  node_modules:
