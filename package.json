@@ -27,6 +27,7 @@
 		"changelogen": "^0.4.0",
 		"husky": "^8.0.0",
 		"rollup": "^3.8.1",
+		"rollup-plugin-scss": "^4.0.0",
 		"sass": "^1.49.7"
 	}
 }
