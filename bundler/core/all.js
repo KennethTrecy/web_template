@@ -4,6 +4,7 @@ import svelte from "rollup-plugin-svelte"
 import autoPrepocess from "svelte-preprocess"
 import commonjs from "@rollup/plugin-commonjs"
 import nodeResolve from "@rollup/plugin-node-resolve"
+import json from "@rollup/plugin-json"
 import esbuild from "rollup-plugin-esbuild-transform"
 
 import { PRODUCTION, DEVELOPMENT, TEST } from "./environments";
@@ -13,6 +14,13 @@ const TYPESCRIPT_CONFIGURATION = "tsconfig.json"
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	const commonPipeline = [
+		json(),
+		esbuild([
+			{
+				"loader": "ts",
+				"tsconfig": join(ROOT, TYPESCRIPT_CONFIGURATION)
+			}
+		]),
 		svelte({
 			"compilerOptions": {
 				"dev": environment === DEVELOPMENT || environment === TEST
@@ -36,6 +44,16 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 			"dedupe": [ "svelte" ]
 		}),
 		commonjs(),
+		esbuild([
+			{
+				"loader": "ts",
+				"tsconfig": join(ROOT, TYPESCRIPT_CONFIGURATION)
+			},
+			{
+				"loader": "js",
+				"output": true
+			}
+		])
 	]
 
 	return environment === TEST
