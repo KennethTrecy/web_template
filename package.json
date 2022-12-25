@@ -13,10 +13,10 @@
 	"scripts": {
 		"prepare": "husky install",
 		"dev": "npm run development",
-		"development": "npx rollup -c bundler/dev/rollup.config.js",
-		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
+		"development": "npx rollup --bundleConfigAsCjs -c bundler/dev/rollup.config.js",
+		"watch": "npx rollup --bundleConfigAsCjs -c bundler/dev/rollup.config.js --watch",
 		"prod": "npm run production",
-		"production": "npx rollup -c bundler/prod/rollup.config.js",
+		"production": "npx rollup --bundleConfigAsCjs -c bundler/prod/rollup.config.js",
 		"test:unit": "npx rollup -c bundler/test/rollup.config.js && npx mocha hidden/t/**/*.js",
 		"test:watch_unit": "npx mocha hidden/t/**/*.js --watch --watch-files hidden/t/**/*.js"
 	},
