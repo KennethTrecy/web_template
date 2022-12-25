@@ -17,6 +17,7 @@ COPY ./package.json ./package.json
 RUN npm install
 
 COPY ./.mocharc.js ./.mocharc.js
+COPY ./tsconfig.json ./tsconfig.json
 
 ###################################
 FROM base as test
