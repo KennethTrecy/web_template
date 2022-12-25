@@ -30,6 +30,7 @@
 		"chai": "^4.3.7",
 		"changelogen": "^0.4.0",
 		"husky": "^8.0.0",
+		"jsdom": "^20.0.3",
 		"mocha": "^10.2.0",
 		"rollup": "^2.67.0",
 		"rollup-plugin-svelte": "^7.1.0",
