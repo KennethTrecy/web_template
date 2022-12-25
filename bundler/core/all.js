@@ -6,13 +6,55 @@ import commonjs from "@rollup/plugin-commonjs"
 import nodeResolve from "@rollup/plugin-node-resolve"
 import esbuild from "rollup-plugin-esbuild-transform"
 
-import { DEVELOPMENT } from "./environments";
+import { PRODUCTION, DEVELOPMENT, TEST } from "./environments";
 
 const ROOT = join(__dirname, "../..")
 const TYPESCRIPT_CONFIGURATION = "tsconfig.json"
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
-	return [
+	const commonPipeline = [
+		svelte({
+			"compilerOptions": {
+				"dev": environment === DEVELOPMENT || environment === TEST
+			},
+			"preprocess": autoPrepocess({
+				"typescript": {
+					"tsconfigDirectory": ROOT,
+					"tsconfigFile": TYPESCRIPT_CONFIGURATION
+				}
+			})
+		}),
+		alias({
+			"entries": [
+				{ find: /^@(\/|$)/, replacement: `${ROOT}/src/` }
+			]
+		}),
+		nodeResolve({
+			"browser": environment === PRODUCTION || environment === DEVELOPMENT,
+			"exportConditions": [ "svelte" ],
+			"extensions": [ ".svelte" ],
+			"dedupe": [ "svelte" ]
+		}),
+		commonjs(),
+	]
+
+	return environment === TEST
+	? [
+		{
+			"input": "src/**/*.spec.ts",
+			"output": {
+				"file": "hidden/index.js",
+				"format": "cjs",
+				"interop": "auto",
+				"name": "tests"
+			},
+			"plugins": [
+				...commonPipeline,
+				...generalPostPlugins
+			]
+		}
+	]
+	: [
 		{
 			"input": "src/index.ts",
 			"output": {
@@ -22,37 +64,7 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"name": "app"
 			},
 			"plugins": [
-				svelte({
-					"preprocess": autoPrepocess({
-						"typescript": {
-							"tsconfigDirectory": ROOT,
-							"tsconfigFile": TYPESCRIPT_CONFIGURATION
-						}
-					})
-				}),
-				alias({
-					"entries": [
-						{ find: /^@(\/|$)/, replacement: `${ROOT}/src/` }
-					]
-				}),
-				nodeResolve({
-					"browser": true,
-					"exportConditions": [ "svelte" ],
-					"extensions": [ ".svelte" ],
-					"dedupe": [ "svelte" ]
-				}),
-				commonjs(),
-				esbuild([
-					{
-						"loader": "ts",
-						"tsconfig": join(ROOT, TYPESCRIPT_CONFIGURATION)
-					},
-					{
-						"loader": "js",
-						// "minify": true,
-						"output": true
-					}
-				]),
+				...commonPipeline,
 				...generalPostPlugins
 			]
 		}
