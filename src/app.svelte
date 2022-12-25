@@ -5,3 +5,9 @@
 <p>
 	Hello {name}!
 </p>
+
+<style lang="scss">
+	p {
+		color: red
+	}
+</style>
