@@ -15,7 +15,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`master`] branch of [Web Template].
+Some parts of the repository was based from [`fullstack`] branch of [Web Template].
 
 The template is specialize for fullstack development.
 
@@ -46,7 +46,7 @@ $ pnpm install
 
 To generate the change log automatically, run the command below:
 ```
-$ npx changelogen --from=[tag name or branch name or commit itself] --to=master
+$ npx changelogen --from=[tag name or branch name or commit itself] --to=fullstack
 ```
 
 ### Syncing template
@@ -56,9 +56,9 @@ template. Steps below indicate how you can synchronize the changes.
 2. Run `git fetch template [branch you want to use from the template]`.
 3. Run `git checkout template/[branch you want to use from the template]`.
 4. Run `git checkout -b template--[branch you want to use from the template]`.
-5. Run `git checkout -b merged_template`. Creates a branch where `master` branch will be merged with
-   your chosen branch from template.
-6. Run `git merge master --allow-unrelated-histories`. Fix merged conflicts if you encounter them
+5. Run `git checkout -b merged_template`. Creates a branch where `fullstack` branch will be merged
+   with your chosen branch from template.
+6. Run `git merge fullstack --allow-unrelated-histories`. Fix merged conflicts if you encounter them
    then commit.
 
 After step 6, it is ready. Just run the command below to sync the changes from template.
@@ -97,20 +97,16 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: https://github.com/KennethTrecy/web_template/
-[Web Template]: https://github.com/KennethTrecy/web_template/
+[`fullstack`]: https://github.com/KennethTrecy/web_template/ [Web Template]:
+https://github.com/KennethTrecy/web_template/
 
 -->
 
-[notes]: #notes
-[`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
-[`vue` package]: https://www.npmjs.com/package/vue
-[`rollup` package]: https://www.npmjs.com/package/rollup
-[`jest` package]: https://www.npmjs.com/package/jest
-[`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
-[`testcafe` package]: https://www.npmjs.com/package/testcafe
-[MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
-[Node.js and NPM]: https://nodejs.org/en/
-[pnpm]: https://pnpm.io/installation
-[Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
-[contributing guide]: ./CONTRIBUTING.md
+[notes]: #notes [`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue [`vue`
+package]: https://www.npmjs.com/package/vue [`rollup` package]: https://www.npmjs.com/package/rollup
+[`jest` package]: https://www.npmjs.com/package/jest [`phpunit/phpunit` package]:
+https://packagist.org/packages/phpunit/phpunit [`testcafe` package]:
+https://www.npmjs.com/package/testcafe [MIT]:
+https://github.com/KennethTrecy/web_template/blob/fullstack/LICENSE [Node.js and NPM]:
+https://nodejs.org/en/ [pnpm]: https://pnpm.io/installation [Conventional Commits specification]:
+https://www.conventionalcommits.org/en/v1.0.0/ [contributing guide]: ./CONTRIBUTING.md
