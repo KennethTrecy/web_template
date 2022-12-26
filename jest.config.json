@@ -17,5 +17,5 @@
 
 	"testRegex": "t/unit/.*\\.js",
 
-	"testEnvironment": "jsdom"
+	"testEnvironment": "jest-environment-jsdom"
 }
