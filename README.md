@@ -81,7 +81,8 @@ After that, *revert_commits_to.ps1* will be removed.
 It is optional to attribute this repository in other template/projects.
 
 ### Branch
-This branch is not recommended to be a template for projects. However, it can be included to other branches or templates.
+This branch is not recommended being a template for projects. Therefore, all branches should be
+created when using repository as a template and choose one of the branches as your master.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
