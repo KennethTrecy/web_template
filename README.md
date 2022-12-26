@@ -5,8 +5,8 @@ other existing templates/projects.
 
 This template has multiple branches that are named after the main package(s)/purpose they contain.
 For example, [`vue` branch] contains [`vue` package]. If branch has multiple packages/purpose, they
-are concatenated using `-` character. By default, most branches contain [`rollup` package] as
-default JavaScript module bundler.
+are concatenated using `-` character. By default, most branches contain [`jest` package] as the
+default JavaScript testing framework and [`rollup` package] as default JavaScript module bundler.
 
 You can check the packages and/or purpose of the branch by reading the [notes] section.
 
@@ -17,7 +17,7 @@ from or based from.
 ## Origin
 Some parts of the repository was based from [`master`] branch of [Web Template].
 
-The template is specialize for fullstack development.
+The template is specialize for general web development.
 
 -->
 
@@ -81,13 +81,7 @@ After that, *revert_commits_to.ps1* will be removed.
 It is optional to attribute this repository in other template/projects.
 
 ### Branch
-The template in this branch is specialize for opinionated fullstack development. You can choose
-other branches to base from if you want to.
-
-This branch can be used to other branches, templates, or projects.
-
-[`rollup` package], [`jest` package], [`phpunit/phpunit` package], [`testcafe` package],and other
-necessary packages were already installed in this branch.
+This branch is not recommended to be a template for projects. However, it can be included to other branches or templates.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
@@ -97,8 +91,8 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: https://github.com/KennethTrecy/web_template/
-[Web Template]: https://github.com/KennethTrecy/web_template/
+[`master`]: http://github.com/KennethTrecy/web_template
+[Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
 
@@ -107,8 +101,6 @@ Coded by Kenneth Trecy Tobias.
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
-[`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
-[`testcafe` package]: https://www.npmjs.com/package/testcafe
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
