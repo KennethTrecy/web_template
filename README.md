@@ -1,3 +1,12 @@
+<!-- [![Tests](https://img.shields.io/github/actions/workflow/status/KennethTrecy/origenne_template/:workflow-filename.yml?style=for-the-badge)](https://github.com/KennethTrecy/origenne_template/actions/workflows/:workflow-filename.yml) -->
+![GitHub lines](https://img.shields.io/github/license/KennethTrecy/origenne_template?style=for-the-badge)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/KennethTrecy/origenne_template?style=for-the-badge&display_name=tag&sort=semver)
+![GitHub closed issues count](https://img.shields.io/github/issues-closed/KennethTrecy/origenne_template?style=for-the-badge)
+![GitHub pull request count](https://img.shields.io/github/issues-pr-closed/KennethTrecy/origenne_template?style=for-the-badge)
+<!-- ![Commits since latest version](https://img.shields.io/github/commits-since/KennethTrecy/origenne_template/latest?style=for-the-badge) -->
+![Lines of code](https://img.shields.io/tokei/lines/github/KennethTrecy/origenne_template?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/repo-size/KennethTrecy/origenne_template?style=for-the-badge)
+
 # Origenne Template
 This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other
 templates/projects either by forking this repository, copying its files, or merging its history to
