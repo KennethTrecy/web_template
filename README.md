@@ -4,6 +4,7 @@
 ![GitHub closed issues count](https://img.shields.io/github/issues-closed/KennethTrecy/web_template?style=for-the-badge)
 ![GitHub pull request count](https://img.shields.io/github/issues-pr-closed/KennethTrecy/web_template?style=for-the-badge)
 <!-- ![Commits since latest version](https://img.shields.io/github/commits-since/KennethTrecy/web_template/latest?style=for-the-badge) -->
+![Lines of code](https://img.shields.io/tokei/lines/github/KennethTrecy/web_template?style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/repo-size/KennethTrecy/web_template?style=for-the-badge)
 
 # Web Template
