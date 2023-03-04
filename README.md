@@ -4,7 +4,6 @@
 ![GitHub closed issues count](https://img.shields.io/github/issues-closed/KennethTrecy/web_template?style=for-the-badge)
 ![GitHub pull request count](https://img.shields.io/github/issues-pr-closed/KennethTrecy/web_template?style=for-the-badge)
 <!-- ![Commits since latest version](https://img.shields.io/github/commits-since/KennethTrecy/web_template/latest?style=for-the-badge) -->
-![Lines of code](https://img.shields.io/tokei/lines/github/KennethTrecy/web_template?style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/repo-size/KennethTrecy/web_template?style=for-the-badge)
 
 # Web Template
@@ -31,11 +30,10 @@ The template is specialize for fullstack development.
 -->
 
 ## Usage
-You can modify this repository's files' content or names as much as you want.
 
 ### Initialization
-This template should be initialized to adhere in [Conventional Commits specification] for organize
-commits and automated generation of change log.
+If you want to contribute, the repository should be initialized to adhere in [Conventional Commits
+specification] for organize commits and automated generation of change log.
 
 #### Prerequisites
 - [Node.js and NPM]
@@ -75,6 +73,9 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 ./merge_from_template.ps1 [branch you want to use from the template]
 ```
 
+## Notes
+It is optional to attribute this repository in other template/projects.
+
 ### License
 The repository is licensed under [MIT]. Since this is a template repository, you can remove
 license file if you want to use other license, or you can use the template repository for a private
@@ -85,9 +86,6 @@ template/project. You can run one of the following commands below:
   retained.
 
 After that, *revert_commits_to.ps1* will be removed.
-
-## Notes
-It is optional to attribute this repository in other template/projects.
 
 ### Branch
 The template in this branch is specialize for opinionated fullstack development. You can choose
@@ -111,11 +109,15 @@ https://github.com/KennethTrecy/web_template/
 
 -->
 
-[notes]: #notes [`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue [`vue`
-package]: https://www.npmjs.com/package/vue [`rollup` package]: https://www.npmjs.com/package/rollup
-[`jest` package]: https://www.npmjs.com/package/jest [`phpunit/phpunit` package]:
-https://packagist.org/packages/phpunit/phpunit [`testcafe` package]:
-https://www.npmjs.com/package/testcafe [MIT]:
-https://github.com/KennethTrecy/web_template/blob/fullstack/LICENSE [Node.js and NPM]:
-https://nodejs.org/en/ [pnpm]: https://pnpm.io/installation [Conventional Commits specification]:
-https://www.conventionalcommits.org/en/v1.0.0/ [contributing guide]: ./CONTRIBUTING.md
+[notes]: #notes
+[`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
+[`vue` package]: https://www.npmjs.com/package/vue
+[`rollup` package]: https://www.npmjs.com/package/rollup
+[`jest` package]: https://www.npmjs.com/package/jest
+[`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
+[Laravel package development]: https://laravel.com/docs/10.x/packages
+[MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
+[Node.js and NPM]: https://nodejs.org/en/
+[pnpm]: https://pnpm.io/installation
+[Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
+[contributing guide]: ./CONTRIBUTING.md
