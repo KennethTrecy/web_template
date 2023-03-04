@@ -2,6 +2,9 @@
 !/.vscode
 
 .env
+composer.lock
+vendor
+*.cache
 
 *hidden*
 *dist*
