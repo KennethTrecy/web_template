@@ -16,10 +16,13 @@ on:
 jobs:
   core_back-end_tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version: [ 8.0.2, 8.1 ]
     steps:
-    - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+    - uses: shivammathur/setup-php@v2
       with:
-        php-version: '8.0.2'
+        php-version: ${{ matrix.php-version }}
       env:
         COMPOSER_TOKEN: ${{ secrets.COMPOSER_TOKEN }}
     - uses: actions/checkout@v2

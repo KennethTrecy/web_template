@@ -18,7 +18,7 @@ if ($LastExitCode -ne 0) {
 	}
 }
 
-git merge master
+git merge initial
 if ($LastExitCode -ne 0) {
 	& git status
 
@@ -31,13 +31,13 @@ if ($LastExitCode -ne 0) {
 	}
 }
 
-git checkout master
+git checkout initial
 git checkout merged_template -- .
 
 if ($LastExitCode -ne 0) {
 	& git status
 
-	$answer = Read-Host -prompt "Have you fixed the conflicts (currently in master)? Enter 'y' to continue"
+	$answer = Read-Host -prompt "Have you fixed the conflicts (currently in initial)? Enter 'y' to continue"
 	if ($answer -ne "y") {
 		exit 1
 	}
