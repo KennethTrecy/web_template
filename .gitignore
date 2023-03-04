@@ -6,6 +6,7 @@ node_modules
 package-lock.json
 
 *hidden*
+*dist*
 
 package-lock.json
 node_modules
