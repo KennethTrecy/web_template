@@ -113,7 +113,7 @@ Coded by Kenneth Trecy Tobias.
 [`rollup` package]: https://www.npmjs.com/package/rollup
 [`jest` package]: https://www.npmjs.com/package/jest
 [`phpunit/phpunit` package]: https://packagist.org/packages/phpunit/phpunit
-[Laravel package development]: https://laravel.com/docs/8.x/packages
+[Laravel package development]: https://laravel.com/docs/10.x/packages
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
