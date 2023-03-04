@@ -17,5 +17,9 @@
 
 	"testRegex": "t/unit/.*\\.js",
 
-	"testEnvironment": "jest-environment-jsdom"
+	"testEnvironment": "jest-environment-jsdom",
+
+	"testEnvironmentOptions": {
+		"customExportConditions": [ "node", "node-addons" ]
+	}
 }
