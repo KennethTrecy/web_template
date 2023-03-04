@@ -6,6 +6,7 @@ composer.lock
 vendor
 
 *hidden*
+*dist*
 
 package-lock.json
 node_modules
