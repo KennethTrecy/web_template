@@ -22,11 +22,11 @@
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
 		"@commitlint/config-conventional": "^17.3.0",
-		"@vitejs/plugin-vue": "^2.3.1",
+		"@vitejs/plugin-vue": "^4.2.3",
 		"changelogen": "^0.4.0",
 		"husky": "^8.0.0",
-		"sass": "^1.50.1",
-		"vite": "^2.9.15",
-		"vue": "^3.2.45"
+		"sass": "^1.63.4",
+		"vite": "^4.3.9",
+		"vue": "^3.3.4"
 	}
 }
