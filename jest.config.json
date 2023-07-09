@@ -13,7 +13,5 @@
 
 	"transformIgnorePatterns": [],
 
-	"testRegex": "t/unit/.*\\.js",
-
-	"testEnvironment": "jsdom"
+	"testRegex": "t/unit/.*\\.js"
 }
