@@ -63,9 +63,6 @@ template, run `./setup_codebase.ps1 -branch [branch you want to use from the tem
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
-## Notes
-It is optional to attribute this repository in other template/projects.
-
 ### License
 The repository is licensed under [MIT]. Since this is a template repository, you can remove
 license file if you want to use other license, or you can use the template repository for a private
