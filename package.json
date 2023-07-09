@@ -8,6 +8,7 @@
 		"web",
 		"template-repository"
 	],
+	"type": "module",
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
