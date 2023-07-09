@@ -18,5 +18,8 @@ export default defineConfig({
 		"watch": {
 			"usePolling": true
 		}
+	},
+	"test": {
+		"include": [ "t/**/*.js" ]
 	}
 });
