@@ -10,3 +10,4 @@ LICENSE*				text eol=lf
 *.cjs					text eol=lf
 *.svelte				text eol=lf
 *.ts					text eol=lf
+*.scss				text eol=lf
