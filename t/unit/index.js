@@ -1,12 +1,18 @@
+// @vitest-environment jsdom
+
+import { cleanup, render } from "@testing-library/vue";
+import { expect, it } from "vitest";
+
 import App from "@/app.vue";
-import { shallowMount } from "@vue/test-utils";
 
 it("can test", () => {
-	const app = shallowMount(App, {
+	const { container } = render(App, {
 		"props": {}
 	});
 
-	const span = app.find("span");
+	const span = container.querySelector("span");
 
-	expect(span.html()).toContain("Hello World!");
+	expect(span.innerHTML).toContain("Hello World!");
+
+	cleanup();
 });
