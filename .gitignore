@@ -12,3 +12,5 @@ vendor
 package-lock.json
 node_modules
 pnpm-lock.yaml
+
+.svelte-kit
