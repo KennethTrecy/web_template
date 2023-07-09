@@ -1,31 +1,10 @@
 {
+	"extends": "@tsconfig/recommended/tsconfig.json",
 	"compilerOptions": {
-		"target": "es2017",
-		"module": "esnext",
-		"moduleResolution": "node",
-		"strict": true,
-		"jsx": "preserve",
-		"sourceMap": true,
-		"resolveJsonModule": true,
-		"esModuleInterop": true,
-		"types": [
-			"vite/client",
-			"@types/jest"
-		],
-		"lib": [
-			"esnext",
-			"dom"
-		],
-		"baseUrl": ".",
+		"module": "ES2015",
+		"moduleResolution": "Node",
 		"paths": {
-			"@/*": [
-				"src/*"
-			]
+			"@/*": [ "src/*" ]
 		}
-	},
-	"include": [
-		"src/**/*.ts",
-		"src/**/*.d.ts",
-		"src/**/*.vue"
-	]
- }
+	}
+}
