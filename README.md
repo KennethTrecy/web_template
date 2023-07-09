@@ -91,7 +91,7 @@ After that, *revert_commits_to.ps1* will be removed.
 ### Branch
 This branch can be used to other branches, templates, or projects.
 
-[`vite` package], [`jest` package], and other necessary packages were already installed in this
+[`vite` package], [`vitest` package], and other necessary packages were already installed in this
 branch.
 
 ### Want to contribute?
@@ -111,6 +111,8 @@ Coded by Kenneth Trecy Tobias.
 [`vue` branch]: https://github.com/KennethTrecy/web_template/tree/vue
 [`vue` package]: https://www.npmjs.com/package/vue
 [`rollup` package]: https://www.npmjs.com/package/rollup
+[`vite` package]: https://www.npmjs.com/package/vite
+[`vitest` package]: https://www.npmjs.com/package/vitest
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
