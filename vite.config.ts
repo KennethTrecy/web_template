@@ -1,10 +1,10 @@
 import { defineConfig } from "vite";
-import pluginVue from "@vitejs/plugin-vue";
+import { sveltekit } from "@sveltejs/kit/vite";
 import { resolve } from "path";
 
 export default defineConfig({
 	"plugins": [
-		pluginVue()
+		sveltekit()
 	],
 	"resolve": {
 		"alias": {
