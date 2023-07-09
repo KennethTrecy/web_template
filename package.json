@@ -16,8 +16,7 @@
 		"development": "npx vite",
 		"prod": "npm run production",
 		"production": "npx vite build",
-		"test:unit": "npx jest",
-		"test:watch_unit": "npx jest --watch"
+		"test:unit": "npx vitest"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
