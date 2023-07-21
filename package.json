@@ -1,6 +1,5 @@
 {
 	"name": "web_template",
-	"version": "v0.4.4-web_template-dev",
 	"description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
 	"homepage": "https://github.com/KennethTrecy/web_template",
 	"keywords": [
