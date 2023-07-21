@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-param($branch, $template_url = "https://github.com/KennethTrecy/origenne_template")
+param($branch, $template_url = "https://github.com/KennethTrecy/web_template")
 git remote add template $template_url
 git fetch template $branch
 git checkout template/$branch
