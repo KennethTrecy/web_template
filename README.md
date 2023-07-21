@@ -57,8 +57,9 @@ $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
 ```
 
 ### Syncing template
-To synchronize the files in this repository's history from the
-template, run `./setup_codebase.ps1 -branch [branch you want to use from the template]`.
+To synchronize the files in this repository's history from the template:
+1. Reset/rebase the `master` branch on any desired branch.
+2. Run `./setup_codebase.ps1 -branch [branch you want to use from the template]`.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.

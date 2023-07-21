@@ -21,4 +21,9 @@ if ($LastExitCode -ne 0) {
 	}
 }
 
+Remove-Item setup_codebase.ps1
+git add setup_codebase.ps1
+git commit -m "chore: remove setup script"
+Write-Output "Removed setup script."
+
 & ./merge_from_template $branch
