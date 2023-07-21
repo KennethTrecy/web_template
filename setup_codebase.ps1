@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-param($branch, $template_url = "https://github.com/KennethTrecy/origenne_template")
+param($branch, $template_url = "https://github.com/KennethTrecy/web_template")
 git remote add template $template_url
 git fetch template $branch
 git checkout template/$branch
@@ -20,5 +20,10 @@ if ($LastExitCode -ne 0) {
 		exit 1
 	}
 }
+
+Remove-Item setup_codebase.ps1
+git add setup_codebase.ps1
+git commit -m "chore: remove setup script"
+Write-Output "Removed setup script."
 
 & ./merge_from_template $branch
