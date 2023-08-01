@@ -24,7 +24,7 @@ from or based from.
 ## Origin
 Some parts of the repository was based from [`initial`] branch of [Web Template].
 
-The template is specialize for general web development.
+The template has been specialized for general web development.
 
 -->
 
