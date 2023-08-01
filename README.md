@@ -3,7 +3,6 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/KennethTrecy/web_template?style=for-the-badge&display_name=tag&sort=semver)
 ![GitHub closed issues count](https://img.shields.io/github/issues-closed/KennethTrecy/web_template?style=for-the-badge)
 ![GitHub pull request count](https://img.shields.io/github/issues-pr-closed/KennethTrecy/web_template?style=for-the-badge)
-<!-- ![Commits since latest version](https://img.shields.io/github/commits-since/KennethTrecy/web_template/latest?style=for-the-badge) -->
 ![GitHub code size in bytes](https://img.shields.io/github/repo-size/KennethTrecy/web_template?style=for-the-badge)
 
 # Web Template
@@ -31,7 +30,7 @@ The template is specialize for backend-end development.
 
 ## Usage
 
-### Initialization
+### Initialization (for developers)
 If you want to contribute, the repository should be initialized to adhere in [Conventional Commits
 specification] for organize commits and automated generation of change log.
 
@@ -40,21 +39,20 @@ specification] for organize commits and automated generation of change log.
 - [pnpm] (optional)
 
 #### Instructions
-By running the command below, all your commits will be linted to follow the [Conventional Commits
+1. By running the command below, all your commits will be linted to follow the [Conventional Commits
 specification].
-```
-$ npm install
-```
+   ```
+   $ npm install
+   ```
 
-Or if you have installed [pnpm], run the following command:
-```
-$ pnpm install
-```
-
-To generate the change log automatically, run the command below:
-```
-$ npx changelogen --from=[tag name or branch name or commit itself] --to=master
-```
+   Or if you have installed [pnpm], run the following command:
+   ```
+   $ pnpm install
+   ```
+2. To generate the change log automatically, run the command below:
+   ```
+   $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
+   ```
 
 ### Syncing template
 To synchronize the files in this repository's history from the template:
