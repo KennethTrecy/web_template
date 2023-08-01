@@ -22,9 +22,9 @@ The `origin` section may be used to indicate where the project (that is using th
 from or based from.
 
 ## Origin
-Some parts of the repository was based from [`initial`] branch of [Web Template].
+Some parts of the repository was based from [`blueprint`] branch of [Web Template].
 
-The template has been specialized for general web development.
+The template has been specialized for entity-relationship diagram development.
 
 -->
 
@@ -87,7 +87,7 @@ This personal project may contain references to trademarks, which are included i
 
 <!--
 
-[`initial`]: http://github.com/KennethTrecy/web_template
+[`blueprint`]: http://github.com/KennethTrecy/web_template
 [Web Template]: http://github.com/KennethTrecy/web_template
 
 -->
