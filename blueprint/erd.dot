@@ -1,0 +1,39 @@
+digraph {
+	graph [
+		layout = dot
+		splines = true
+		nodesep = 0.3
+	]
+	{
+		node [ shape = none margin = 0 fontname="Candara" ]
+
+	}
+
+	edge [ dir = "both" ]
+	{
+		// zero or one
+		edge [
+			arrowhead = noneteeodot
+			arrowtail = noneteetee
+		]
+
+	}
+
+	{
+		// zero to many
+		edge [
+			arrowhead = nonecrowodot
+			arrowtail = noneteetee
+		]
+
+	}
+
+	{
+		// zero to many but optional in reverse too
+		edge [
+			arrowhead = nonecrowodot
+			arrowtail = noneteeodot
+		]
+
+	}
+}
