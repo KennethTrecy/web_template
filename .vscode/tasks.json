@@ -1,11 +1,16 @@
 {
 	"version": "2.0.0",
 	"tasks": [{
-		"label": "",
-		"type": "shell",
+		"label": "Render graph",
+		// "type": "shell",
 		"options": { "cwd": ".." },
-		"command": "",
-		"args": [""],
+		"command": "dot",
+		"args": [
+			"-Tpng",
+			"${file}",
+			"-o",
+			"${workspaceFolder}${pathSeparator}${relativeFileDirname}${pathSeparator}${fileBasenameNoExtension}.png"
+		],
 		"presentation": {
 			"echo": false,
 			"reveal": "silent",
