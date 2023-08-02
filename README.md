@@ -24,7 +24,7 @@ from or based from.
 ## Origin
 Some parts of the repository was based from [`master`] branch of [Web Template].
 
-The template in this branch is not usable. Please use other templates.
+The template in this branch is not usable. Please use a template from other branches.
 
 -->
 
