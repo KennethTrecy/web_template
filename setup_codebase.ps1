@@ -21,6 +21,8 @@ if ($LastExitCode -ne 0) {
 	}
 }
 
+git checkout master
+
 Remove-Item setup_codebase.ps1
 git add setup_codebase.ps1
 git commit -m "chore: remove setup script"
