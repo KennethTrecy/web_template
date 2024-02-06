@@ -8,9 +8,9 @@
 
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.3.0",
-		"@commitlint/config-conventional": "^17.3.0",
-		"changelogen": "^0.4.0",
-		"husky": "^8.0.0"
+		"@commitlint/cli": "^18.6.0",
+		"@commitlint/config-conventional": "^18.6.0",
+		"changelogen": "^0.5.5",
+		"husky": "^9.0.10"
 	}
 }
