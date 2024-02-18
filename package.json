@@ -20,11 +20,11 @@
 		"test:watch_unit": "echo watch test command here"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.3.0",
-		"@commitlint/config-conventional": "^17.3.0",
+		"@commitlint/cli": "^18.6.0",
+		"@commitlint/config-conventional": "^18.6.0",
 		"@rollup/plugin-terser": "^0.2.1",
-		"changelogen": "^0.4.0",
-		"husky": "^8.0.0",
+		"changelogen": "^0.5.5",
+		"husky": "^9.0.10",
 		"rollup": "^3.8.1"
 	}
 }
