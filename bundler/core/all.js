@@ -1,6 +1,5 @@
-import { join } from "path"
-import esbuild from "rollup-plugin-esbuild-transform"
-import { DEVELOPMENT } from "./environments";
+import { DEVELOPMENT, PRODUCTION } from "./environments.js"
+import esbuild from "rollup-plugin-esbuild"
 
 const ROOT = join(__dirname, "../..")
 const TYPESCRIPT_CONFIGURATION = "tsconfig.json"
@@ -15,20 +14,12 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"interop": "auto",
 				"name": "app"
 			},
-			"plugins": [,
-				esbuild([
-					{
-						"loader": "ts",
-						"tsconfig": join(ROOT, TYPESCRIPT_CONFIGURATION)
-					},
-					{
-						"loader": "js",
-						// "minify": true,
-						"output": true
-					}
-				]),
+			"plugins": [
+				esbuild({
+					"minify": environment === PRODUCTION
+				}),
 				...generalPostPlugins
 			]
 		}
-	];
+	]
 }

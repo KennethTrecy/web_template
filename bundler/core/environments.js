@@ -1,2 +1,2 @@
-export const DEVELOPMENT = "dev";
-export const PRODUCTION = "production";
+export const DEVELOPMENT = "dev"
+export const PRODUCTION = "production"
