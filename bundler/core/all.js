@@ -1,4 +1,5 @@
-import { DEVELOPMENT } from "./environments.js"
+import { DEVELOPMENT, PRODUCTION } from "./environments.js"
+import esbuild from "rollup-plugin-esbuild"
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -11,6 +12,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				"name": "app"
 			},
 			"plugins": [
+				esbuild({
+					"minify": environment === PRODUCTION
+				}),
 				...generalPostPlugins
 			]
 		}
