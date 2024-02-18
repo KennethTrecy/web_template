@@ -12,10 +12,10 @@
 	"scripts": {
 		"prepare": "husky install",
 		"dev": "npm run development",
-		"development": "npx rollup --bundleConfigAsCjs -c bundler/dev/rollup.config.js",
-		"watch": "npx rollup --bundleConfigAsCjs -c bundler/dev/rollup.config.js --watch",
+		"development": "npx rollup -c bundler/dev/rollup.config.js",
+		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",
 		"prod": "npm run production",
-		"production": "npx rollup --bundleConfigAsCjs -c bundler/prod/rollup.config.js",
+		"production": "npx rollup -c bundler/prod/rollup.config.js",
 		"test:unit": "echo test command here",
 		"test:watch_unit": "echo watch test command here"
 	},
