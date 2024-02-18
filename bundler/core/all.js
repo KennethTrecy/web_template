@@ -1,4 +1,4 @@
-import { DEVELOPMENT } from "./environments";
+import { DEVELOPMENT } from "./environments.js"
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -14,5 +14,5 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				...generalPostPlugins
 			]
 		}
-	];
+	]
 }

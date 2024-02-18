@@ -1,4 +1,4 @@
-import { DEVELOPMENT } from "../core/environments";
-import all from "../core/all";
+import { DEVELOPMENT } from "../core/environments.js"
+import all from "../core/all.js"
 
-export default all(DEVELOPMENT);
+export default all(DEVELOPMENT)

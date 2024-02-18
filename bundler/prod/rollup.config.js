@@ -1,11 +1,9 @@
-import { PRODUCTION } from "../core/environments";
-import all from "../core/all";
-import { terser } from "rollup-plugin-terser";
+import { PRODUCTION } from "../core/environments.js"
+import all from "../core/all.js"
+import esbuild from "rollup-plugin-esbuild"
 
 export default all(PRODUCTION, [
-	terser({
-		"format": {
-			"comments": (_n, comment) => (/license/iu).test(comment.value)
-		}
+	esbuild({
+		"minify": true
 	})
-]);
+])
