@@ -20,7 +20,7 @@ jobs:
       matrix:
         php-version: [ 8.0.2, 8.1 ]
     steps:
-    - uses: shivammathur/setup-php@v2.28.0
+    - uses: shivammathur/setup-php@2.28.0
       with:
         php-version: ${{ matrix.php-version }}
       env:
