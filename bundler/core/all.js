@@ -1,11 +1,16 @@
 /* eslint-disable max-lines-per-function */
-import { DEVELOPMENT, PRODUCTION } from "./environments.js"
+import { fileURLToPath } from "url"
+import { resolve, join, dirname } from "path"
+
 import alias from "@rollup/plugin-alias"
 import nodeResolve from "@rollup/plugin-node-resolve"
 import replace from "@rollup/plugin-replace"
-import { resolve } from "path"
 import vue from "@vitejs/plugin-vue"
 import esbuild from "rollup-plugin-esbuild"
+
+import { DEVELOPMENT, PRODUCTION } from "./environments.js"
+
+export const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..")
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -26,7 +31,7 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 			"plugins": [
 				alias({
 					"entries": {
-						"@": resolve(__dirname, "../../src")
+						"@": resolve(ROOT, "src")
 					}
 				}),
 				vue({
