@@ -2,7 +2,7 @@
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
-		"prepare": "husky install"
+		"prepare": "husky"
 	},
 	"dependencies": {
 
