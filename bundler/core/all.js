@@ -1,10 +1,11 @@
 /* eslint-disable max-lines-per-function */
-import { DEVELOPMENT } from "./environments";
-import alias from "@rollup/plugin-alias";
-import nodeResolve from "@rollup/plugin-node-resolve";
-import replace from "@rollup/plugin-replace";
-import { resolve } from "path";
-import vue from "@vitejs/plugin-vue";
+import { DEVELOPMENT, PRODUCTION } from "./environments.js"
+import alias from "@rollup/plugin-alias"
+import nodeResolve from "@rollup/plugin-node-resolve"
+import replace from "@rollup/plugin-replace"
+import { resolve } from "path"
+import vue from "@vitejs/plugin-vue"
+import esbuild from "rollup-plugin-esbuild"
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -30,6 +31,9 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				}),
 				vue({
 
+				}),
+				esbuild({
+					"minify": environment === PRODUCTION
 				}),
 				...generalPostPlugins
 			]
@@ -57,5 +61,5 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 				...generalPostPlugins
 			]
 		}
-	];
+	]
 }
