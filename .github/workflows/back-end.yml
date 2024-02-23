@@ -20,12 +20,12 @@ jobs:
       matrix:
         php-version: [ 8.0.2, 8.1 ]
     steps:
-    - uses: shivammathur/setup-php@v2
+    - uses: shivammathur/setup-php@v2.28.0
       with:
         php-version: ${{ matrix.php-version }}
       env:
         COMPOSER_TOKEN: ${{ secrets.COMPOSER_TOKEN }}
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Install dependencies
       run: composer install --quiet --no-ansi --no-interaction --no-progress
     - name: Run tests
