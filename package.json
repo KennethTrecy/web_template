@@ -11,7 +11,7 @@
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"dev": "npm run development",
 		"development": "npx rollup -c bundler/dev/rollup.config.js",
 		"watch": "npx rollup -c bundler/dev/rollup.config.js --watch",

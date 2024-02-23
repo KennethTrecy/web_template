@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+. "$(dirname -- "$0")/_/h"
 
 if [ -f "$(dirname -- "$0")/_/commit-msg" ]; then
 	. "$(dirname -- "$0")/_/commit-msg"
