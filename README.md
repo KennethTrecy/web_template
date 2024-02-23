@@ -24,7 +24,7 @@ from or based from.
 ## Origin
 Some parts of the repository was based from [`empty_composer_json`] branch of [Web Template].
 
-The template has been specialized for backend-end development.
+The template has been specialized for back-end development.
 
 -->
 
