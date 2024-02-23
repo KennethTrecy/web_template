@@ -5,6 +5,7 @@ declare namespace App {
 	// interface Error {}
 	// interface Locals {}
 	// interface PageData {}
+	// interface PageState {}
 	interface Platform {
 		env: {
 			// Public environment variables here...
