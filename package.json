@@ -10,7 +10,7 @@
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"dev": "npm run development",
 		"development": "echo development bundler command here",
 		"watch": "echo watched development bundler command here",
@@ -20,11 +20,10 @@
 		"test:watch_unit": "npx mocha src/**/*.spec.js --watch --watch-files src/**/*.spec.js"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.3.0",
-		"@commitlint/config-conventional": "^17.3.0",
-		"chai": "^4.3.7",
-		"changelogen": "^0.4.0",
-		"husky": "^8.0.0",
+		"@commitlint/cli": "^18.6.0",
+		"@commitlint/config-conventional": "^18.6.0",
+		"changelogen": "^0.5.5",
+		"husky": "^9.0.10",
 		"mocha": "^10.2.0"
 	}
 }
