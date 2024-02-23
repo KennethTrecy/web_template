@@ -3,7 +3,8 @@ import autoPrepocess from "svelte-preprocess"
 import commonjs from "@rollup/plugin-commonjs"
 import nodeResolve from "@rollup/plugin-node-resolve"
 
-import { DEVELOPMENT } from "./environments";
+import { DEVELOPMENT, PRODUCTION } from "./environments.js"
+import esbuild from "rollup-plugin-esbuild"
 
 export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 	return [
@@ -28,8 +29,11 @@ export default function(environment = DEVELOPMENT, generalPostPlugins = []) {
 					"dedupe": [ "svelte" ]
 				}),
 				commonjs(),
+				esbuild({
+					"minify": environment === PRODUCTION
+				}),
 				...generalPostPlugins
 			]
 		}
-	];
+	]
 }
