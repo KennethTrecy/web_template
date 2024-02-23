@@ -6,7 +6,7 @@
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"dev": "npm run development",
 		"development": "echo development bundler command here",
 		"watch": "echo watched development bundler command here",
