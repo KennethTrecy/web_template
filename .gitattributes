@@ -1,5 +1,7 @@
 *.md					text eol=lf
 .git*					text eol=lf
+*.js					text eol=lf
+*.ps1					text eol=lf
 *.json				text eol=lf
 LICENSE*				text eol=lf
 .editorconfig		text eol=lf
