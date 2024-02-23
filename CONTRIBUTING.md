@@ -28,7 +28,8 @@ different contents can be found in [`.editorconfig`].
 
 ### Allowed Commit Types
 The commit types are dependent on the type of changes in the code. Commits should be atomic as much
-as possible to not confuse the reviewers, easy to rebase or cherry-pick the commit, and generation of change logs.
+as possible to not confuse the reviewers, easy to rebase or cherry-pick the commit, and generation
+of change logs.
 
 Meanwhile, the scope names are dependent on the topic. It is recommended to looking on the
 previous commits to see the pattern on scope names.

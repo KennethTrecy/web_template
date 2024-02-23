@@ -25,7 +25,6 @@ module.exports = {
 				"dx",
 				"security",
 				"revert",
-				"config",
 				"internal",
 				"chore",
 				// This will not be included in the change log.
