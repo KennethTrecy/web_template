@@ -10,7 +10,9 @@
 	"devDependencies": {
 		"@commitlint/cli": "^19.6.1",
 		"@commitlint/config-conventional": "^19.6.0",
+		"chai": "^5.1.0",
 		"changelogen": "^0.5.7",
-		"husky": "^9.1.7"
+		"husky": "^9.1.7",
+		"mocha": "^10.2.0"
 	}
 }
