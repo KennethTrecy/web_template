@@ -24,13 +24,13 @@
 		"svelte": "^3.55.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^18.6.0",
-		"@commitlint/config-conventional": "^18.6.0",
+		"@commitlint/cli": "^19.6.1",
+		"@commitlint/config-conventional": "^19.6.0",
 		"@rollup/plugin-commonjs": "^25.0.7",
 		"@rollup/plugin-node-resolve": "^15.0.1",
-		"changelogen": "^0.5.5",
+		"changelogen": "^0.5.7",
 		"esbuild": "^0.20.0",
-		"husky": "^9.0.10",
+		"husky": "^9.1.7",
 		"rollup-plugin-esbuild": "^6.1.1",
 		"rollup-plugin-svelte": "^7.1.0",
 		"rollup": "^4.12.0",
